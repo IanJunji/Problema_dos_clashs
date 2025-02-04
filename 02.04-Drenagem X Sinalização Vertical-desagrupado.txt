@@ -1,0 +1,159 @@
+
+Clashes
+------------------
+Report Batch
+
+
+02.04-Drenagem X Sinalização Vertical Clash
+Tolerance:	0.010m
+Total:	211
+New:	0
+Active:	0
+Reviewed:	0
+Approved:	137
+Resolved:	74
+Type:	Hard
+Status:	Old
+
+------------------
+
+
+Name:	Clash5
+Distance:	-0.239m
+Image Location:	02.04-Drenagem X Sinalização Vertical-desagrupado_files\cd070207.jpg
+HardStatus:	Approved
+Clash Point:	619172.121m, 493096.675m, 442.198m
+Grid Location:	
+Date Created:	2023/12/2211:57
+Date Approved:	2023/12/2211:58
+Approved By:	Geometria
+
+Item 1
+Entity Handle:	18C3AE
+Layer:	H-SARJETA_CONCRETO
+Entity Handle Value:	47A5CE
+A_Dados Projeto CCR_DescricaoProjeto:	
+B_Info Objetos CCR_Disciplina:	Drenagem
+B_Info Objetos (ULTRAPASSADO) CCR_Confiavel:	
+C_Propriedade Objetos CCR_Altura:	0,250 m
+D_Propriedades Geograficas CCR_CoordenadaEixoX:	
+E_Requisitos Específicos CCR_ClasseTubo:	
+E_Requisitos Específicos (PROJETADO) CCR_ClasseTubo:	
+
+Item 2
+Entity Handle:	391B
+Layer:	sinC_VERTICAL_BIM
+Entity Handle Value:	F1E
+A_Dados Projeto CCR_DescricaoProjeto:	Projeto Executivo da Nova Pista da Serra das Araras BR116/RJ
+B_Info Objetos CCR_Disciplina:	
+B_Info Objetos (ULTRAPASSADO) CCR_Confiavel:	
+C_Propriedade Objetos CCR_Altura:	
+D_Propriedades Geograficas CCR_CoordenadaEixoX:	
+E_Requisitos Específicos CCR_ClasseTubo:	
+E_Requisitos Específicos (PROJETADO) CCR_ClasseTubo:	
+
+------------------
+
+
+Name:	Clash4
+Distance:	-0.298m
+Image Location:	02.04-Drenagem X Sinalização Vertical-desagrupado_files\cd070208.jpg
+HardStatus:	Resolved
+Clash Point:	620728.775m, 493811.492m, 161.951m
+Grid Location:	
+Date Created:	2023/12/2211:57
+
+Item 1
+Entity Handle:	4E80E
+Layer:	sinC_VERTICAL_BIM
+Entity Handle Value:	F1E
+A_Dados Projeto CCR_DescricaoProjeto:	Projeto Executivo da Nova Pista da Serra das Araras BR116/RJ
+B_Info Objetos CCR_Disciplina:	
+B_Info Objetos (ULTRAPASSADO) CCR_Confiavel:	
+C_Propriedade Objetos CCR_Altura:	
+D_Propriedades Geograficas CCR_CoordenadaEixoX:	
+E_Requisitos Específicos CCR_ClasseTubo:	
+E_Requisitos Específicos (PROJETADO) CCR_ClasseTubo:	
+
+------------------
+
+
+Name:	Clash3
+Distance:	-0.303m
+Image Location:	02.04-Drenagem X Sinalização Vertical-desagrupado_files\cd070209.jpg
+HardStatus:	Resolved
+Clash Point:	620748.438m, 493985.631m, 191.005m
+Grid Location:	
+Date Created:	2023/12/2211:57
+
+Item 1
+Entity Handle:	705C6
+Layer:	sinC_VERTICAL_BIM
+Entity Handle Value:	F1E
+A_Dados Projeto CCR_DescricaoProjeto:	Projeto Executivo da Nova Pista da Serra das Araras BR116/RJ
+B_Info Objetos CCR_Disciplina:	
+B_Info Objetos (ULTRAPASSADO) CCR_Confiavel:	
+C_Propriedade Objetos CCR_Altura:	
+D_Propriedades Geograficas CCR_CoordenadaEixoX:	
+E_Requisitos Específicos CCR_ClasseTubo:	
+E_Requisitos Específicos (PROJETADO) CCR_ClasseTubo:	
+
+------------------
+
+
+Name:	Clash2
+Distance:	-0.335m
+Image Location:	02.04-Drenagem X Sinalização Vertical-desagrupado_files\cd070210.jpg
+HardStatus:	Resolved
+Clash Point:	620736.869m, 493840.382m, 163.809m
+Grid Location:	
+Date Created:	2023/12/2211:57
+
+Item 1
+Entity Handle:	4E620
+Layer:	sinC_VERTICAL_BIM
+Entity Handle Value:	F1E
+A_Dados Projeto CCR_DescricaoProjeto:	Projeto Executivo da Nova Pista da Serra das Araras BR116/RJ
+B_Info Objetos CCR_Disciplina:	
+B_Info Objetos (ULTRAPASSADO) CCR_Confiavel:	
+C_Propriedade Objetos CCR_Altura:	
+D_Propriedades Geograficas CCR_CoordenadaEixoX:	
+E_Requisitos Específicos CCR_ClasseTubo:	
+E_Requisitos Específicos (PROJETADO) CCR_ClasseTubo:	
+
+------------------
+
+
+Name:	Clash1
+Distance:	-0.438m
+Image Location:	02.04-Drenagem X Sinalização Vertical-desagrupado_files\cd070211.jpg
+HardStatus:	Approved
+Clash Point:	619448.708m, 493890.854m, 387.477m
+Grid Location:	
+Date Created:	2023/12/2211:57
+Date Approved:	2023/12/2211:59
+Approved By:	Geometria
+
+Item 1
+Entity Handle:	17F0F2
+Layer:	H-SARJETA_CONCRETO
+Entity Handle Value:	47A49F
+A_Dados Projeto CCR_DescricaoProjeto:	
+B_Info Objetos CCR_Disciplina:	Drenagem
+B_Info Objetos (ULTRAPASSADO) CCR_Confiavel:	
+C_Propriedade Objetos CCR_Altura:	0,250 m
+D_Propriedades Geograficas CCR_CoordenadaEixoX:	
+E_Requisitos Específicos CCR_ClasseTubo:	
+E_Requisitos Específicos (PROJETADO) CCR_ClasseTubo:	
+
+Item 2
+Entity Handle:	4A249
+Layer:	sinC_VERTICAL_BIM
+Entity Handle Value:	F1E
+A_Dados Projeto CCR_DescricaoProjeto:	Projeto Executivo da Nova Pista da Serra das Araras BR116/RJ
+B_Info Objetos CCR_Disciplina:	
+B_Info Objetos (ULTRAPASSADO) CCR_Confiavel:	
+C_Propriedade Objetos CCR_Altura:	
+D_Propriedades Geograficas CCR_CoordenadaEixoX:	
+E_Requisitos Específicos CCR_ClasseTubo:	
+E_Requisitos Específicos (PROJETADO) CCR_ClasseTubo:	
