@@ -137,15 +137,15 @@ def process_matrix(clashs, matrix_path):
             if criteria in classification_values[discipline]:
                 classification_values[discipline][criteria].add(value)
 
-    # Pré-computa um dicionário para os cabeçalhos da aba "Matriz" (linha 2, colunas a partir da 4)
+    # Pré-computa um dicionário para os cabeçalhos da aba "Matriz" (linha 2, colunas a partir da 3)
     matriz_header = {}
-    for col in aba_matriz.iter_cols(min_row=2, max_row=2, min_col=4):
+    for col in aba_matriz.iter_cols(min_row=2, max_row=2, min_col=3):
         for cel in col:
             matriz_header[cel.value] = cel.column
 
-    # Pré-computa um dicionário para mapeamento das linhas da aba "Matriz" (coluna 2, a partir da linha 4)
+    # Pré-computa um dicionário para mapeamento das linhas da aba "Matriz" (coluna 2, a partir da linha 3)
     matriz_rows = {}
-    for col in aba_matriz.iter_cols(min_col=2, max_col=2, min_row=4):
+    for col in aba_matriz.iter_cols(min_col=2, max_col=2, min_row=3):
         for cel in col:
             matriz_rows[cel.value] = cel.row
 
