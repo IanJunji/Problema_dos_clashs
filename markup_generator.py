@@ -95,84 +95,34 @@ def process_clash_file(filepath):
 
 def process_matrix(clashs, matrix_path):
     # Carrega a planilha e as abas
-    planilha_matriz = openpyxl.load_workbook(matrix_path)
-    aba_matriz = planilha_matriz['Matriz']
-    aba_listagem = planilha_matriz['Listagem']
+    workbook = openpyxl.load_workbook(matrix_path)
+    aba_matriz = workbook['Matriz']
+    aba_listagem = workbook['Listagem']
+
+    # Inicialize a lista que armazenará os clashs aprovados
     clashs_aprovados = []
 
-    # Dicionários para armazenar os valores de classificação e mapeamento para o nome da coluna
-    classification_values = {
-        "Topografia": {"Pontual": set(), "X": set(), "Y": set()},
-        "Drenagem": {"Linear": set(), "Enterrado": set(), "Pontual": set()},
-        "Interferências": {"Enterrada": set(), "Aerea": set(), "Pontual": set()},
-        "Sinalização Vertical": {"Pontual": set(), "X": set(), "Y": set()},
-        "Dispositivo de Segurança": {"Linear": set(), "X": set(), "Y": set()},
-        "OAEs": {"Linear": set(), "X": set(), "Y": set()},
-        "Contenções": {"Paramento": set(), "Grampo": set(), "Dreno": set()},
-        "Pavimentação": {"Camadas": set(), "X": set(), "Y": set()},
-        "Iluminação": {"Engastado": set(), "X": set(), "Y": set()},
-        "Estruturas Especiais": {"X": set(), "Y": set(), "Z": set()},
-    }
-
-    column_names = {
-        "Topografia": {"Pontual": "topografia_a", "X": "topografia_b", "Y": "topografia_c"},
-        "Drenagem": {"Linear": "drenagem_a", "Enterrado": "drenagem_b", "Pontual": "drenagem_c"},
-        "Interferências": {"Enterrada": "interferencia_a", "Aerea": "interferencia_b", "Pontual": "interferencia_c"},
-        "Sinalização Vertical": {"Pontual": "sinalizacao_a", "X": "sinalizacao_b", "Y": "sinalizacao_c"},
-        "Dispositivo de Segurança": {"Linear": "disp_seg_a", "X": "disp_seg_b", "Y": "disp_seg_c"},
-        "OAEs": {"Linear": "oae_a", "X": "oae_b", "Y": "oae_c"},
-        "Contenções": {"Paramento": "contencoes_a", "Grampo": "contencoes_b", "Dreno": "contencoes_c"},
-        "Pavimentação": {"Camadas": "pavimentacao_a", "X": "pavimentacao_b", "Y": "pavimentacao_c"},
-        "Iluminação": {"Engastado": "iluminacao_a", "X": "iluminacao_b", "Y": "iluminacao_c"},
-        "Estruturas Especiais": {"X": "est_esp_a", "Y": "est_esp_b", "Z": "est_esp_c"},
-    }
-
-    # Preenche o dicionário classification_values com os dados da aba "Listagem"
-    # As colunas: 1 => disciplina, 2 => classificação e 3 => valor
-    for row in range(2, aba_listagem.max_row + 1):
-        discipline = aba_listagem.cell(row=row, column=1).value
-        if discipline in classification_values:
-            criteria = aba_listagem.cell(row=row, column=2).value
-            value = aba_listagem.cell(row=row, column=3).value
-            if criteria in classification_values[discipline]:
-                classification_values[discipline][criteria].add(value)
-
-    # Pré-computa um dicionário para os cabeçalhos da aba "Matriz" (linha 2, colunas a partir da 3)
-    matriz_header = {}
-    for col in aba_matriz.iter_cols(min_row=2, max_row=2, min_col=3):
-        for cel in col:
-            matriz_header[cel.value] = cel.column
-
-    # Pré-computa um dicionário para mapeamento das linhas da aba "Matriz" (coluna 2, a partir da linha 3)
-    matriz_rows = {}
-    for col in aba_matriz.iter_cols(min_col=2, max_col=2, min_row=3):
-        for cel in col:
-            matriz_rows[cel.value] = cel.row
-
-    # Processa cada clash e determina se é aprovado (célula na intersecção diferente de 'O')
     for clash in clashs:
-        discipline = clash.get('obj_1', None)
-        obj2 = clash.get('obj_2', None)
-        layer1 = clash.get('layer_1', None)
-        if discipline in classification_values and layer1 is not None:
-            nome_coluna = None
-            # Percorre cada critério para a disciplina e verifica se layer1 está nos valores permitidos
-            for criteria, allowed_values in classification_values[discipline].items():
-                if layer1 in allowed_values:
-                    nome_coluna = column_names[discipline][criteria]
-                    break
-
-            if nome_coluna is None:
-                continue  # Não foi possível determinar a coluna para este clash
-
-            # Obtém o índice da coluna e da linha utilizando os mapeamentos pré-computados
-            coluna = matriz_header.get(nome_coluna, None)
-            linha = matriz_rows.get(obj2, None)
-
-            if linha is not None and coluna is not None:
-                if aba_matriz.cell(row=linha, column=coluna).value != 'O':
-                    clashs_aprovados.append(clash)
-
+        layer1 = clash['layer_1']
+        layer2 = clash['layer_2']
+        for row in range(2, len(aba_listagem.max_row)+ 1):
+            if aba_listagem.cell(row=row, column=3).value == layer1:
+                cat1 = aba_listagem.cell(row=row, column=4).value
+            if aba_listagem.cell(row=row, column=3).value == layer2:
+                cat2 = aba_listagem.cell(row=row, column=4).value
+            
+        for col in aba_matriz.iter_cols(min_col=3, min_row=2, max_row=2):
+            for cel in col:
+                if cel.value == cat1:
+                    coluna_filtro = cel.column
+        
+        for col in aba_matriz.iter_cols(min_col=2, max_col=2, min_row=3):
+            for cel in col:
+                if cel.value == cat2:
+                    linha_filtro = cel.row
+        
+        if aba_matriz.cell(row=linha_filtro, column=coluna_filtro).value == 'O':
+            clashs_aprovados.append(clash)
     return clashs_aprovados
 
 def criar_txts_por_disciplina(clashs_aprovados, diretorio_saida):
@@ -217,6 +167,7 @@ def process_files():
     
     try:
         clashs = process_clash_file(clash_file_path.get())
+        print(clashs)
         clashs_aprovados = process_matrix(clashs, matrix_file_path.get())
         criar_txts_por_disciplina(clashs_aprovados, output_dir.get())
         messagebox.showinfo("Sucesso", "Processamento concluído com sucesso!")
