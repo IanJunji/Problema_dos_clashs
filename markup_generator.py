@@ -24,6 +24,60 @@ def select_output_dir():
     if dirname:
         output_dir.set(dirname)
 
+def extract_disciplina(linha):
+    """
+    Extrai a disciplina a partir de uma linha do caminho (linha que começa com "Path:").
+    Realiza uma série de splits conforme o padrão esperado da string e retorna a disciplina
+    associada, ou None caso não consiga extrair.
+    """
+    try:
+        # Primeiramente ignora as partes antes dos '>':
+        _, rsp = linha.split('>', 1)
+        _, rsp2 = rsp.split('>', 1)
+        
+        # Processa os splits consecutivos conforme o padrão:
+        temp = rsp2
+        _, temp = temp.split('-', 1)      # descarta a primeira parte (valrsp)
+        _, temp = temp.split('-', 1)      # descarta a segunda parte (valrj)
+        _, temp = temp.split('-', 1)      # descarta a terceira parte (val218)
+        _, temp = temp.split('-', 1)      # descarta a quarta parte (val226)
+        _, temp = temp.split('-', 1)      # descarta a quinta parte (valaca)
+        _, temp = temp.split('-', 1)      # descarta a sexta parte (valexe)
+        _, temp = temp.split('-', 1)      # descarta a sétima parte (valmb), 
+        # Agora temp contém "valsemifinal-numdps-resto..."
+        valfinal, temp = temp.split('-', 1)
+        numdps, _ = temp.split('-', 1)
+        
+        # Limpa os espaços em branco
+        valfinal = valfinal.strip()
+        numdps = numdps.strip()
+        
+        # Mapeamento básico das siglas para as disciplinas
+        disciplinas = {
+            'C1': 'Topografia',
+            'F1': 'Geometria',
+            'G1': 'Terraplenagem',
+            'H2': 'Drenagem',
+            'J2': 'Dispositivo de Segurança',
+            'I2': 'Pavimentação',
+            'L2': 'OAEs',
+            'K2': 'Iluminação',
+            'L4': 'Geotecnia',
+            'M1': 'Interferências',
+            'Q1': 'Desapropriação',
+            'N2': 'Paisagismo',
+            'Z9': 'Geral'
+        }
+
+        # Tratamento especial para 'J1'
+        if valfinal == 'J1' and numdps == '001':
+            return 'Sinalização Vertical'
+        
+        return disciplinas.get(valfinal)
+    except Exception as e:
+        print(f"Erro durante a extração da disciplina: {e}")
+        return None
+
 def process_clash_file(filepath):
     clashs = []
     current_clash = {}
@@ -67,11 +121,13 @@ def process_clash_file(filepath):
             current_clash['coord_y'] = y.strip()
             current_clash['coord_z'] = z.strip()
             current_clash['coordinates'] = cord_sem_m
-        
-        elif linha.startswith('Date Created:'):
-            _, valor = linha.split(':', 1)
-            current_clash['criacao'] = valor.strip()
-        
+
+        elif linha.startswith('Path:'):
+            disciplina = extract_disciplina(linha)
+            if disciplina:
+                key = 'disciplina_1' if 'disciplina_1' not in current_clash else 'disciplina_2'
+                current_clash[key] = disciplina
+
         elif linha.startswith('Entity Handle:'):
             if 'entity_1' not in current_clash:
                 _, valor = linha.split(':', 1)
@@ -90,7 +146,6 @@ def process_clash_file(filepath):
 
     if current_clash:
         clashs.append(current_clash)
-    
     return clashs
 
 def process_matrix(clashs, matrix_path):
@@ -100,30 +155,22 @@ def process_matrix(clashs, matrix_path):
     aba_listagem = workbook['Listagem']
 
     # Inicialize a lista que armazenará os clashs aprovados
-    clashs_aprovados = []
+    clashs_semi_aprovados = []
 
     for clash in clashs:
-        layer1 = clash['layer_1']
-        layer2 = clash['layer_2']
-        for row in range(2, len(aba_listagem.max_row)+ 1):
-            if aba_listagem.cell(row=row, column=3).value == layer1:
-                cat1 = aba_listagem.cell(row=row, column=4).value
-            if aba_listagem.cell(row=row, column=3).value == layer2:
-                cat2 = aba_listagem.cell(row=row, column=4).value
-            
-        for col in aba_matriz.iter_cols(min_col=3, min_row=2, max_row=2):
+        for col in aba_matriz.iter_cols(min_row=2, max_row=2, min_col=4):
             for cel in col:
-                if cel.value == cat1:
-                    coluna_filtro = cel.column
+                if cel.value == clash['disciplina_1']:
+                    coluna = cel.column
         
-        for col in aba_matriz.iter_cols(min_col=2, max_col=2, min_row=3):
+        for col in aba_matriz.iter_cols(min_col=2, max_col=2, min_row=4):
             for cel in col:
-                if cel.value == cat2:
-                    linha_filtro = cel.row
+                if cel.value == clash['disciplina_2']:
+                    linha = cel.row
         
-        if aba_matriz.cell(row=linha_filtro, column=coluna_filtro).value == 'O':
-            clashs_aprovados.append(clash)
-    return clashs_aprovados
+        if aba_matriz.cell(row=linha, column=coluna).value == 'O':
+            clashs_semi_aprovados.append(clash)
+    return clashs_semi_aprovados
 
 def criar_txts_por_disciplina(clashs_aprovados, diretorio_saida):
     os.makedirs(diretorio_saida, exist_ok=True)
