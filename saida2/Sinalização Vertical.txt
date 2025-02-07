@@ -1,0 +1,2110 @@
+X: 621149.973
+Y: 494645.488
+Z: 277.408
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070001
+Entity1: 43339
+Entity2: 4343
+Layer1: DPS08
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620761.756
+Y: 493993.929
+Z: 191.629
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070002
+Entity1: 4332C
+Entity2: 7BC7F
+Layer1: DPS08
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620736.056
+Y: 493977.235
+Z: 190.439
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070003
+Entity1: 4332C
+Entity2: 706A1
+Layer1: DPS08
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620748.446
+Y: 493985.683
+Z: 191.014
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070004
+Entity1: 4332C
+Entity2: 705C6
+Layer1: DPS08
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619454.369
+Y: 493916.007
+Z: 385.644
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070005
+Entity1: 43293
+Entity2: 3865
+Layer1: DPS08
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621137.871
+Y: 494637.480
+Z: 277.941
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070006
+Entity1: 43339
+Entity2: 3901
+Layer1: DPS08
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619428.028
+Y: 493924.418
+Z: 390.788
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070007
+Entity1: 4312F
+Entity2: 6F167
+Layer1: DPS08
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621521.426
+Y: 494312.409
+Z: 234.374
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070008
+Entity1: 4D457
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621531.036
+Y: 494488.179
+Z: 246.996
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070009
+Entity1: 4CA13
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620283.858
+Y: 494539.597
+Z: 324.534
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070010
+Entity1: 178430
+Entity2: 3935
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621540.839
+Y: 494444.333
+Z: 243.689
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070011
+Entity1: 4CCA4
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620790.945
+Y: 493929.380
+Z: 171.692
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070012
+Entity1: 1D6D1E
+Entity2: 4DF5F
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621507.510
+Y: 494285.807
+Z: 232.221
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070013
+Entity1: 4D60D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621506.126
+Y: 494542.614
+Z: 251.118
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070014
+Entity1: 4C6A7
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620265.467
+Y: 494489.272
+Z: 332.448
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070015
+Entity1: 177F9E
+Entity2: 36F9
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620780.982
+Y: 493918.245
+Z: 170.624
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070016
+Entity1: 1D6D1E
+Entity2: 4E056
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621112.517
+Y: 493216.379
+Z: 105.658
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070017
+Entity1: 1BEC76
+Entity2: 502F1
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621127.650
+Y: 493190.484
+Z: 103.289
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070018
+Entity1: 1BEC76
+Entity2: B9B76
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621474.371
+Y: 492476.053
+Z: 67.158
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070019
+Entity1: 145ED4
+Entity2: 35F5
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619425.794
+Y: 493576.770
+Z: 407.655
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070020
+Entity1: 18209D
+Entity2: 387F
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620763.138
+Y: 493894.155
+Z: 168.015
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070021
+Entity1: 1D6D1E
+Entity2: 4E244
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619103.263
+Y: 493020.993
+Z: 443.947
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070022
+Entity1: 18D3A9
+Entity2: 3C0D
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620771.674
+Y: 493906.491
+Z: 169.351
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070023
+Entity1: 1D6D1E
+Entity2: 4E14D
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621520.268
+Y: 494516.171
+Z: 249.037
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070024
+Entity1: 4C85D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620722.806
+Y: 493613.019
+Z: 155.401
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070025
+Entity1: 1579C8
+Entity2: B37F2
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621541.178
+Y: 494384.435
+Z: 239.455
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070026
+Entity1: 4D010
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621526.111
+Y: 494502.356
+Z: 247.993
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070027
+Entity1: 4C938
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621096.791
+Y: 493241.921
+Z: 108.114
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070028
+Entity1: 1BEC76
+Entity2: 5013B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620735.436
+Y: 493591.999
+Z: 157.626
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070029
+Entity1: 1579C8
+Entity2: 34F1
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621088.353
+Y: 493254.320
+Z: 109.327
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070030
+Entity1: 1BEC76
+Entity2: 50060
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621120.064
+Y: 493203.416
+Z: 104.423
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070031
+Entity1: 1BEC76
+Entity2: 503CC
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621542.833
+Y: 494414.389
+Z: 241.526
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070032
+Entity1: 4CE5A
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621069.822
+Y: 493277.908
+Z: 111.823
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070033
+Entity1: 1BEC76
+Entity2: 4FEAA
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621539.026
+Y: 494369.631
+Z: 238.381
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070034
+Entity1: 4D0EB
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621079.432
+Y: 493266.391
+Z: 110.665
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070035
+Entity1: 1BEC76
+Entity2: 4FF85
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621538.485
+Y: 494459.122
+Z: 244.764
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070036
+Entity1: 4CBC9
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621513.598
+Y: 494529.606
+Z: 250.054
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070037
+Entity1: 4C782
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621104.864
+Y: 493229.292
+Z: 107.029
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070038
+Entity1: 1BEC76
+Entity2: 50216
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621535.956
+Y: 494354.948
+Z: 237.215
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070039
+Entity1: 4D1C6
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621556.449
+Y: 492153.109
+Z: 64.019
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070040
+Entity1: 12DFD2
+Entity2: 3A1F
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620774.789
+Y: 493632.553
+Z: 147.016
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070041
+Entity1: 1576CD
+Entity2: 3817
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621535.236
+Y: 494473.791
+Z: 245.846
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070042
+Entity1: 4CAEE
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619104.941
+Y: 493022.665
+Z: 444.103
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070043
+Entity1: 18D3A9
+Entity2: 3BF3
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620732.215
+Y: 493601.428
+Z: 156.725
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070044
+Entity1: 1579C8
+Entity2: B3AD7
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621458.636
+Y: 492418.376
+Z: 67.505
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070045
+Entity1: 145ED4
+Entity2: 51F36
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621542.291
+Y: 494429.404
+Z: 242.615
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070046
+Entity1: 4CD7F
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621514.755
+Y: 494298.900
+Z: 233.196
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070047
+Entity1: 4D532
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621461.291
+Y: 492433.135
+Z: 67.384
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070048
+Entity1: 145ED4
+Entity2: 51E3F
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620734.174
+Y: 493596.860
+Z: 157.287
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070049
+Entity1: 1579C8
+Entity2: B3BCE
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620726.478
+Y: 493609.588
+Z: 155.775
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070050
+Entity1: 1579C8
+Entity2: B38E9
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621456.054
+Y: 492373.519
+Z: 67.976
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070051
+Entity1: 145ED4
+Entity2: 5221B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621542.473
+Y: 494399.418
+Z: 240.459
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070052
+Entity1: 4CF35
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621456.999
+Y: 492358.553
+Z: 68.176
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070053
+Entity1: 145ED4
+Entity2: 62BEA
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620729.626
+Y: 493605.702
+Z: 156.360
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070054
+Entity1: 1579C8
+Entity2: B39E0
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621456.874
+Y: 492403.485
+Z: 67.629
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070055
+Entity1: 145ED4
+Entity2: 5202D
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621469.242
+Y: 492462.039
+Z: 67.144
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070056
+Entity1: 145ED4
+Entity2: 51C51
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620709.597
+Y: 493619.837
+Z: 153.926
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070057
+Entity1: 1579C8
+Entity2: B350D
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621280.296
+Y: 493035.832
+Z: 87.104
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070058
+Entity1: 43FC8A
+Entity2: B887B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621464.831
+Y: 492447.706
+Z: 67.266
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070059
+Entity1: 145ED4
+Entity2: 51D48
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621456.012
+Y: 492388.514
+Z: 67.753
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070060
+Entity1: 145ED4
+Entity2: 52124
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621490.675
+Y: 494261.538
+Z: 230.021
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070061
+Entity1: 4D7C3
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620755.353
+Y: 493881.303
+Z: 166.959
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070062
+Entity1: 1D6D1E
+Entity2: 4E33B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621480.886
+Y: 494249.529
+Z: 228.851
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070063
+Entity1: 4D89E
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620714.276
+Y: 493618.212
+Z: 154.525
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070064
+Entity1: 1579C8
+Entity2: B3604
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621531.924
+Y: 494340.489
+Z: 236.417
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070065
+Entity1: 4D2A1
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620732.413
+Y: 493826.011
+Z: 162.853
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070066
+Entity1: 1D6D1E
+Entity2: 4E717
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621572.640
+Y: 492751.760
+Z: 66.299
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070067
+Entity1: 138C3D
+Entity2: 3691
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620699.707
+Y: 493621.294
+Z: 153.018
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070068
+Entity1: 1579C8
+Entity2: 34D7
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620742.198
+Y: 493854.367
+Z: 164.857
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070069
+Entity1: 1D6D1E
+Entity2: 4E529
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620718.753
+Y: 493615.907
+Z: 154.856
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070070
+Entity1: 1579C8
+Entity2: B36FB
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621294.771
+Y: 493031.884
+Z: 86.160
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070071
+Entity1: 43FC8A
+Entity2: B868D
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621309.320
+Y: 493028.510
+Z: 84.799
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070072
+Entity1: 43FC8A
+Entity2: B8596
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620748.365
+Y: 493868.036
+Z: 165.902
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070073
+Entity1: 1D6D1E
+Entity2: 4E432
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620761.744
+Y: 493993.878
+Z: 191.526
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070074
+Entity1: 524069
+Entity2: 7BC7F
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620704.695
+Y: 493620.946
+Z: 153.457
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070075
+Entity1: 1579C8
+Entity2: B3416
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621187.881
+Y: 494087.732
+Z: 202.632
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070076
+Entity1: 160352
+Entity2: 365D
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621470.533
+Y: 494238.565
+Z: 227.816
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070077
+Entity1: 62340
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620736.056
+Y: 493977.235
+Z: 190.428
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070078
+Entity1: 524069
+Entity2: 706A1
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620728.775
+Y: 493811.492
+Z: 161.961
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070079
+Entity1: 1D6D1E
+Entity2: 4E80E
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620736.869
+Y: 493840.382
+Z: 163.819
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070080
+Entity1: 1D6D1E
+Entity2: 4E620
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620748.496
+Y: 493985.623
+Z: 191.021
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070081
+Entity1: 524069
+Entity2: 705C6
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621521.426
+Y: 494312.409
+Z: 234.374
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070082
+Entity1: 4D457
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621531.036
+Y: 494488.179
+Z: 246.996
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070083
+Entity1: 4CA13
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620283.858
+Y: 494539.597
+Z: 324.534
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070084
+Entity1: 3935
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621446.208
+Y: 494609.065
+Z: 256.789
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070085
+Entity1: 16626B
+Entity2: 4C185
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621152.047
+Y: 494614.533
+Z: 275.417
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070086
+Entity1: 26FCBC
+Entity2: 6241B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621540.839
+Y: 494444.333
+Z: 243.689
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070087
+Entity1: 4CCA4
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620790.945
+Y: 493929.380
+Z: 171.682
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070088
+Entity1: 4DF5F
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621507.510
+Y: 494285.807
+Z: 232.221
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070089
+Entity1: 4D60D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621506.126
+Y: 494542.614
+Z: 251.118
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070090
+Entity1: 4C6A7
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620265.467
+Y: 494489.272
+Z: 332.448
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070091
+Entity1: 36F9
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621162.879
+Y: 494653.296
+Z: 276.990
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070092
+Entity1: 1695EC
+Entity2: 4329
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620780.982
+Y: 493918.245
+Z: 170.614
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070093
+Entity1: 4E056
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621474.371
+Y: 492476.053
+Z: 67.148
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070094
+Entity1: 35F5
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619425.794
+Y: 493576.770
+Z: 407.655
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070095
+Entity1: 387F
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620763.138
+Y: 493894.155
+Z: 168.005
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070096
+Entity1: 4E244
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621262.653
+Y: 494658.158
+Z: 269.419
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070097
+Entity1: 277082
+Entity2: 4B666
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621352.023
+Y: 494653.789
+Z: 263.529
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070098
+Entity1: 166356
+Entity2: 4BB88
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621196.637
+Y: 494068.531
+Z: 203.326
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070099
+Entity1: 36C5
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621408.212
+Y: 494633.143
+Z: 259.682
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070100
+Entity1: 16626B
+Entity2: 4BEF4
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621520.268
+Y: 494516.171
+Z: 249.037
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070101
+Entity1: 4C85D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 618928.707
+Y: 492965.987
+Z: 443.597
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070102
+Entity1: 4812FD
+Entity2: 3983
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620771.680
+Y: 493906.488
+Z: 169.312
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070103
+Entity1: 4E14D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620722.806
+Y: 493613.019
+Z: 155.391
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070104
+Entity1: B37F2
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621233.213
+Y: 494652.332
+Z: 271.131
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070105
+Entity1: 277082
+Entity2: 4B4B0
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621541.178
+Y: 494384.435
+Z: 239.455
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070106
+Entity1: 4D010
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621137.156
+Y: 494603.037
+Z: 276.039
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070107
+Entity1: 26FCBC
+Entity2: 377B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621322.470
+Y: 494658.791
+Z: 265.452
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070108
+Entity1: 277BC9
+Entity2: 4B9D2
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621526.111
+Y: 494502.356
+Z: 247.993
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070109
+Entity1: 4C938
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621277.547
+Y: 494659.631
+Z: 268.338
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070110
+Entity1: 277082
+Entity2: 4B741
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621218.821
+Y: 494648.123
+Z: 271.972
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070111
+Entity1: 2765EB
+Entity2: 4B3D5
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621096.790
+Y: 493241.921
+Z: 108.104
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070112
+Entity1: 5013B
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620735.436
+Y: 493591.999
+Z: 157.616
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070113
+Entity1: 34F1
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621468.812
+Y: 494589.423
+Z: 254.876
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070114
+Entity1: 16615F
+Entity2: 4C33B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621088.353
+Y: 493254.320
+Z: 109.317
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070115
+Entity1: 50060
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621204.709
+Y: 494643.051
+Z: 272.763
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070116
+Entity1: 2765EB
+Entity2: 4B2FA
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621190.931
+Y: 494637.133
+Z: 273.503
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070117
+Entity1: 2765EB
+Entity2: 4B21F
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621292.530
+Y: 494660.260
+Z: 267.376
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070118
+Entity1: 277BC9
+Entity2: 4B81C
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 618926.653
+Y: 492966.115
+Z: 443.756
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070119
+Entity1: 4812FD
+Entity2: 3969
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621394.660
+Y: 494639.573
+Z: 260.647
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070120
+Entity1: 166356
+Entity2: 4BE19
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621307.522
+Y: 494659.980
+Z: 266.415
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070121
+Entity1: 277BC9
+Entity2: 4B8F7
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621120.064
+Y: 493203.416
+Z: 104.413
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070122
+Entity1: 503CC
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621479.189
+Y: 494578.591
+Z: 253.916
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070123
+Entity1: 16615F
+Entity2: 4C416
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621421.349
+Y: 494625.902
+Z: 258.725
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070124
+Entity1: 16626B
+Entity2: 4BFCF
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621337.322
+Y: 494656.777
+Z: 264.622
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070125
+Entity1: 277BC9
+Entity2: 4BAAD
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621542.833
+Y: 494414.389
+Z: 241.526
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070126
+Entity1: 4CE5A
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621104.874
+Y: 493229.268
+Z: 107.013
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070127
+Entity1: 50216
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621177.537
+Y: 494630.390
+Z: 274.194
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070128
+Entity1: 2765EB
+Entity2: 4B144
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621164.526
+Y: 494622.909
+Z: 274.965
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070129
+Entity1: 26FCBC
+Entity2: 4B069
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621069.822
+Y: 493277.908
+Z: 111.813
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070130
+Entity1: 4FEAA
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621497.880
+Y: 494555.143
+Z: 251.993
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070131
+Entity1: 16615F
+Entity2: 4C5CC
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621539.026
+Y: 494369.631
+Z: 238.381
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070132
+Entity1: 4D0EB
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621079.432
+Y: 493266.391
+Z: 110.655
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070133
+Entity1: 4FF85
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621127.583
+Y: 493190.441
+Z: 103.166
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070134
+Entity1: B9B76
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621280.315
+Y: 493035.833
+Z: 86.974
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070135
+Entity1: B887B
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621247.810
+Y: 494655.734
+Z: 270.375
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070136
+Entity1: 277082
+Entity2: 4B58B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621112.579
+Y: 493216.428
+Z: 105.785
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070137
+Entity1: 502F1
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621538.485
+Y: 494459.122
+Z: 244.764
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070138
+Entity1: 4CBC9
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621513.598
+Y: 494529.606
+Z: 250.054
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070139
+Entity1: 4C782
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621488.890
+Y: 494567.151
+Z: 252.956
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070140
+Entity1: 16615F
+Entity2: 4C4F1
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621572.686
+Y: 492751.737
+Z: 66.134
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070141
+Entity1: 3691
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621535.956
+Y: 494354.948
+Z: 237.215
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070142
+Entity1: 4D1C6
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621556.449
+Y: 492153.109
+Z: 64.019
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070143
+Entity1: 3A1F
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620774.789
+Y: 493632.553
+Z: 147.006
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070144
+Entity1: 3817
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621471.730
+Y: 494626.187
+Z: 258.630
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070145
+Entity1: 1DC196
+Entity2: 3B09
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621535.236
+Y: 494473.791
+Z: 245.846
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070146
+Entity1: 4CAEE
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621380.766
+Y: 494645.159
+Z: 261.614
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070147
+Entity1: 166356
+Entity2: 4BD3E
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620561.669
+Y: 494518.734
+Z: 306.639
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070148
+Entity1: 177C9C
+Entity2: 39EB
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620732.215
+Y: 493601.428
+Z: 156.715
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070149
+Entity1: B3AD7
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621458.636
+Y: 492418.376
+Z: 67.495
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070150
+Entity1: 51F36
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619080.453
+Y: 492947.865
+Z: 446.306
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070151
+Entity1: 18D7EC
+Entity2: 69522
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621542.291
+Y: 494429.404
+Z: 242.615
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070152
+Entity1: 4CD7F
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621514.755
+Y: 494298.900
+Z: 233.196
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070153
+Entity1: 4D532
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621461.291
+Y: 492433.135
+Z: 67.374
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070154
+Entity1: 51E3F
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620734.174
+Y: 493596.860
+Z: 157.277
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070155
+Entity1: B3BCE
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620726.478
+Y: 493609.588
+Z: 155.765
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070156
+Entity1: B38E9
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621456.054
+Y: 492373.519
+Z: 67.966
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070157
+Entity1: 5221B
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621542.473
+Y: 494399.418
+Z: 240.459
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070158
+Entity1: 4CF35
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621456.999
+Y: 492358.553
+Z: 68.166
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070159
+Entity1: 62BEA
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619103.270
+Y: 493021.026
+Z: 444.083
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070160
+Entity1: 3C0D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621366.514
+Y: 494649.916
+Z: 262.586
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070161
+Entity1: 166356
+Entity2: 4BC63
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621456.874
+Y: 492403.485
+Z: 67.619
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070162
+Entity1: 5202D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620729.626
+Y: 493605.702
+Z: 156.350
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070163
+Entity1: B39E0
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621469.242
+Y: 492462.038
+Z: 67.134
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070164
+Entity1: 51C51
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621167.395
+Y: 494624.541
+Z: 274.705
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070165
+Entity1: 26FCBC
+Entity2: 34BD
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620709.597
+Y: 493619.837
+Z: 153.916
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070166
+Entity1: B350D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621464.831
+Y: 492447.706
+Z: 67.256
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070167
+Entity1: 51D48
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621456.013
+Y: 492388.514
+Z: 67.743
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070168
+Entity1: 52124
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619104.941
+Y: 493022.665
+Z: 444.103
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070169
+Entity1: 3BF3
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621434.028
+Y: 494617.878
+Z: 257.782
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070170
+Entity1: 16626B
+Entity2: 4C0AA
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621490.675
+Y: 494261.538
+Z: 230.021
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070171
+Entity1: 4D7C3
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621457.798
+Y: 494599.607
+Z: 255.950
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070172
+Entity1: 16615F
+Entity2: 4C260
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620755.353
+Y: 493881.303
+Z: 166.949
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070173
+Entity1: 4E33B
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619171.729
+Y: 493020.291
+Z: 446.200
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070174
+Entity1: 18BB4C
+Entity2: 442D
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621480.886
+Y: 494249.529
+Z: 228.851
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070175
+Entity1: 4D89E
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620714.276
+Y: 493618.212
+Z: 154.515
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070176
+Entity1: B3604
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621531.924
+Y: 494340.489
+Z: 236.417
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070177
+Entity1: 4D2A1
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620558.706
+Y: 494545.533
+Z: 308.180
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070178
+Entity1: 1779F5
+Entity2: 39D1
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620732.413
+Y: 493826.011
+Z: 162.843
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070179
+Entity1: 4E717
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620699.707
+Y: 493621.294
+Z: 153.008
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070180
+Entity1: 34D7
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621482.467
+Y: 494617.763
+Z: 257.777
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070181
+Entity1: 1DC196
+Entity2: 4107
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619432.527
+Y: 493938.730
+Z: 389.617
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070182
+Entity1: 17E31F
+Entity2: 3C41
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619454.401
+Y: 493915.957
+Z: 385.640
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070183
+Entity1: 17F0F2
+Entity2: 3865
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620718.753
+Y: 493615.907
+Z: 154.846
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070184
+Entity1: B36FB
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 618937.324
+Y: 492967.902
+Z: 443.266
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070185
+Entity1: 4812FD
+Entity2: 3BD9
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621294.770
+Y: 493031.884
+Z: 86.150
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070186
+Entity1: B868D
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619455.819
+Y: 493919.921
+Z: 385.510
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070187
+Entity1: 17F0F2
+Entity2: 61E1E
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619423.771
+Y: 493909.936
+Z: 391.865
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070188
+Entity1: 2C37C1
+Entity2: 6F070
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621309.320
+Y: 493028.510
+Z: 84.789
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070189
+Entity1: B8596
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620748.365
+Y: 493868.035
+Z: 165.892
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070190
+Entity1: 4E432
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619420.494
+Y: 493895.314
+Z: 392.692
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070191
+Entity1: 2C37C1
+Entity2: 6EF79
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619282.673
+Y: 493307.830
+Z: 428.870
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070192
+Entity1: 189986
+Entity2: 6199F
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619287.532
+Y: 493316.844
+Z: 427.951
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070193
+Entity1: 189986
+Entity2: 3A39
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620736.057
+Y: 493977.236
+Z: 190.566
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070194
+Entity1: 706A1
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620556.410
+Y: 494544.092
+Z: 308.304
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070195
+Entity1: 1779F5
+Entity2: 3B3D
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619418.481
+Y: 493880.562
+Z: 393.547
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070196
+Entity1: 2C37C1
+Entity2: 75688
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620704.695
+Y: 493620.946
+Z: 153.447
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070197
+Entity1: B3416
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620761.803
+Y: 493993.867
+Z: 191.672
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070198
+Entity1: 7BC7F
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620742.198
+Y: 493854.368
+Z: 164.930
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070199
+Entity1: 4E529
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621470.533
+Y: 494238.565
+Z: 227.816
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070200
+Entity1: 62340
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 621150.026
+Y: 494645.505
+Z: 277.568
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070201
+Entity1: 1695EC
+Entity2: 4343
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619451.888
+Y: 493905.454
+Z: 386.456
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070202
+Entity1: 17F0F2
+Entity2: 4A16E
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619928.115
+Y: 494377.399
+Z: 339.666
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070203
+Entity1: 17AA5F
+Entity2: 19CA
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619428.030
+Y: 493924.399
+Z: 390.832
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070204
+Entity1: 17F66B
+Entity2: 6F167
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621137.873
+Y: 494637.482
+Z: 277.977
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070205
+Entity1: 1695EC
+Entity2: 3901
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621471.054
+Y: 494627.547
+Z: 258.642
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070206
+Entity1: 1DC196
+Entity2: 4121
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619172.121
+Y: 493096.675
+Z: 442.198
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070207
+Entity1: 18C3AE
+Entity2: 391B
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620728.775
+Y: 493811.492
+Z: 161.951
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070208
+Entity1: 4E80E
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620748.438
+Y: 493985.631
+Z: 191.005
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070209
+Entity1: 705C6
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 620736.869
+Y: 493840.382
+Z: 163.809
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070210
+Entity1: 4E620
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: 
+----------------------------------------
+X: 619448.708
+Y: 493890.854
+Z: 387.477
+Objetos: Drenagem X Sinalização Vertical
+ID: cd070211
+Entity1: 17F0F2
+Entity2: 4A249
+Layer1: H-SARJETA_CONCRETO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------

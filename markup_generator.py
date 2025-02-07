@@ -3,6 +3,10 @@ from tkinter import filedialog, messagebox
 import os
 import openpyxl
 from openpyxl import load_workbook
+import sys
+from collections import defaultdict
+
+import openpyxl.workbook
 
 # Variáveis globais para armazenar os caminhos dos arquivos/diretórios
 clash_file_path = None
@@ -58,16 +62,18 @@ def extract_disciplina(linha):
             'F1': 'Geometria',
             'G1': 'Terraplenagem',
             'H2': 'Drenagem',
-            'J2': 'Dispositivo de Segurança',
+            'J2': 'Dispositivos de Segurança',
             'I2': 'Pavimentação',
             'L2': 'OAEs',
             'K2': 'Iluminação',
-            'L4': 'Geotecnia',
+            'L4': 'Contenções',
             'M1': 'Interferências',
             'Q1': 'Desapropriação',
             'N2': 'Paisagismo',
             'Z9': 'Geral'
         }
+        
+
 
         # Tratamento especial para 'J1'
         if valfinal == 'J1' and numdps == '001':
@@ -79,14 +85,15 @@ def extract_disciplina(linha):
         return None
 
 def process_clash_file(filepath):
+    lista_disciplinas = []
     clashs = []
     current_clash = {}
     
     with open(filepath, 'r', encoding='utf-8') as arquivo:
         linhas = arquivo.readlines()
     
-    for linha in linhas:
-        linha = linha.strip()
+    for i in range(len(linhas)):
+        linha = linhas[i].strip()
         
         if linha.startswith('Name:'):
             if current_clash:  # Se já houver um clash em progresso, adiciona-o à lista
@@ -97,21 +104,11 @@ def process_clash_file(filepath):
         
         elif linha.startswith('Image Location:'):
             _, valor = linha.split(':', 1)
-            _, nome = valor.split('-', 1)
-            nome_objs, _ = nome.split('-', 1)
-            obj1, obj2 = nome_objs.split('X', 1)
             _, pre_id = linha.split('\\', 1)
             id_val, _ = pre_id.split('.', 1)
-            current_clash['objetos'] = nome_objs.strip()
             current_clash['image_loc'] = valor.strip()
-            current_clash['obj_1'] = obj1.strip()
-            current_clash['obj_2'] = obj2.strip()
             current_clash['id'] = id_val.strip()
 
-        elif linha.startswith('HardStatus:'):
-            _, valor = linha.split(':', 1)
-            current_clash['HardStatus'] = valor.strip()
-        
         elif linha.startswith('Clash Point:'):
             _, valor = linha.split(':', 1)
             cord_sem_m = valor.replace('m', '').strip()
@@ -125,6 +122,8 @@ def process_clash_file(filepath):
         elif linha.startswith('Path:'):
             disciplina = extract_disciplina(linha)
             if disciplina:
+                if disciplina not in lista_disciplinas:
+                    lista_disciplinas.append(disciplina)
                 key = 'disciplina_1' if 'disciplina_1' not in current_clash else 'disciplina_2'
                 current_clash[key] = disciplina
 
@@ -136,17 +135,25 @@ def process_clash_file(filepath):
                 _, valor = linha.split(':', 1)
                 current_clash['entity_2'] = valor.strip()
         
-        elif linha.startswith('Layer:'):
-            if 'layer_1' not in current_clash:
-                _, valor = linha.split(':', 1)
+        elif linha.startswith('Item 1'):
+            if linhas[i+1].startswith('Layer:'):
+                _, valor = linhas[i+1].split(':', 1)
                 current_clash['layer_1'] = valor.strip()
             else:
-                _, valor = linha.split(':', 1)
+                current_clash['layer_1'] = 'Layer_vazio'
+
+
+        elif linha.startswith('Item 2'):
+            if linhas[i+1].startswith('Layer:'):
+                _, valor = linhas[i+1].split(':', 1)
                 current_clash['layer_2'] = valor.strip()
+            else:
+                current_clash['layer_2'] = 'Layer_vazio'
+
 
     if current_clash:
         clashs.append(current_clash)
-    return clashs
+    return clashs, lista_disciplinas
 
 def process_matrix(clashs, matrix_path):
     # Carrega a planilha e as abas
@@ -158,26 +165,40 @@ def process_matrix(clashs, matrix_path):
     clashs_semi_aprovados = []
 
     for clash in clashs:
+        # Inicializa as variáveis para cada clash
+        coluna = None  # Coluna correspondente à disciplina_1
+        row = None     # Linha correspondente à disciplina_2
+        
+        # Procura o valor de 'disciplina_1' na primeira linha (colunas 4 em diante)
         for col in aba_matriz.iter_cols(min_row=2, max_row=2, min_col=4):
             for cel in col:
                 if cel.value == clash['disciplina_1']:
                     coluna = cel.column
+                    break  # Encerra o loop interno
+            if coluna is not None:
+                break  # Encerra o loop externo se encontrado
         
+        # Procura o valor de 'disciplina_2' na segunda coluna (linhas a partir da 4)
         for col in aba_matriz.iter_cols(min_col=2, max_col=2, min_row=4):
             for cel in col:
                 if cel.value == clash['disciplina_2']:
-                    linha = cel.row
-        
-        if aba_matriz.cell(row=linha, column=coluna).value == 'O':
-            clashs_semi_aprovados.append(clash)
+                    row = cel.row
+                    break  # Encerra o loop interno
+            if row is not None:
+                break  # Encerra o loop externo se encontrado
+                
+        # Verifica se ambos 'coluna' e 'row' foram definidos e se a célula correspondente na matriz é 'O'
+        if coluna is not None and row is not None:
+            if aba_matriz.cell(row=row, column=coluna).value == 'O':
+                clashs_semi_aprovados.append(clash)
     return clashs_semi_aprovados
 
 def criar_txts_por_disciplina(clashs_aprovados, diretorio_saida):
     os.makedirs(diretorio_saida, exist_ok=True)
     
     for clash in clashs_aprovados:
-        nome = clash.get('name', '')
-        objetos = clash.get('objetos', '')
+        disp_1 = clash.get('disciplina_1', '')
+        disp_2 = clash.get('disciplina_2', '')
         id_clash = clash.get('id', '')
         entity1 = clash.get('entity_1', '')
         entity2 = clash.get('entity_2', '')
@@ -190,7 +211,7 @@ def criar_txts_por_disciplina(clashs_aprovados, diretorio_saida):
         conteudo = f"X: {coord_x}\n" \
                    f"Y: {coord_y}\n" \
                    f"Z: {coord_z}\n" \
-                   f"Objetos: {objetos}\n" \
+                   f"Objetos: {disp_1} X {disp_2}\n" \
                    f"ID: {id_clash}\n" \
                    f"Entity1: {entity1}\n" \
                    f"Entity2: {entity2}\n" \
@@ -199,7 +220,7 @@ def criar_txts_por_disciplina(clashs_aprovados, diretorio_saida):
                    f"{'-'*40}\n"
         
         # Cria/atualiza os TXT para as disciplinas
-        disciplinas = [clash.get('obj_1', ''), clash.get('obj_2', '')]
+        disciplinas = [clash.get('disciplina_1', ''), clash.get('disciplina_2', '')]
         
         for disciplina in disciplinas:
             if disciplina:
@@ -207,14 +228,149 @@ def criar_txts_por_disciplina(clashs_aprovados, diretorio_saida):
                 with open(caminho_txt, 'a', encoding='utf-8') as txt_file:
                     txt_file.write(conteudo)
 
+def contagem_conflitos_totais(clashs):
+    lista_conflitos = []
+    contagem_conflitos_total = []
+    for clash in clashs:
+        if clash.get('layer_1') and clash.get('layer_2'):
+            key = f"{clash['layer_1']}%{clash['layer_2']}"
+            key_inv = f"{clash['layer_2']}%{clash['layer_1']}"
+            if key not in lista_conflitos and key_inv not in lista_conflitos:
+                lista_conflitos.append(key)
+                contagem_conflitos_total.append(1)
+            else:
+                for i in range(len(lista_conflitos)):
+                    if lista_conflitos[i] == key:
+                        contagem_conflitos_total[i] += 1
+    return lista_conflitos, contagem_conflitos_total
+
+def separar_layers(clashs):
+    disciplinas_layers = defaultdict(list)
+
+    for clash in clashs:
+        # Extrai todas as combinações layer-disciplina do clash
+        layers_disciplinas = []
+        
+        # Verifica se tem disciplina_1 e layer_1
+        if 'disciplina_1' in clash and 'layer_1' in clash:
+            layers_disciplinas.append( (clash['layer_1'], clash['disciplina_1']) )
+        
+        # Verifica se tem disciplina_2 e layer_2
+        if 'disciplina_2' in clash and 'layer_2' in clash:
+            layers_disciplinas.append( (clash['layer_2'], clash['disciplina_2']) )
+
+        # Adiciona ao dicionário garantindo a relação correta
+        for layer, disciplina in layers_disciplinas:
+            if layer not in disciplinas_layers[disciplina]:
+                disciplinas_layers[disciplina].append(layer)
+
+    return dict(disciplinas_layers)
+
+def excel_conflitos(conflitos, contagem):
+    workbook = openpyxl.Workbook()
+    aba = workbook.active
+    for i in range(len(conflitos)):
+        layer1, layer2 = conflitos[i].split('%', 1)
+        aba[f'A{i+1}'].value = layer1
+        aba[f'B{i+1}'].value = layer2
+        aba[f'C{i+1}'].value = contagem[i]
+    workbook.save('D:/geoconversor/Mês_2/Problema_dos_clashs/teste/lista.xlsx')
+
+def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_disciplina):
+    workbook = openpyxl.Workbook()
+    aba = workbook.active
+
+    row_num = 1
+
+    for disciplinas_chave, conflitos in conflitos_por_disciplina.items():
+        disciplina1, disciplina2 = disciplinas_chave.split(' x ')
+        total_conflitos = conflitos['total']  # Já temos o total calculado
+
+        aba[f'A{row_num}'] = disciplina1
+        aba[f'B{row_num}'] = disciplina2
+        aba[f'C{row_num}'] = total_conflitos
+        row_num += 1
+
+        if conflitos['conflitos']:
+            aba[f'A{row_num}'] = 'Layer 1'
+            aba[f'B{row_num}'] = 'Layer 2'
+            aba[f'C{row_num}'] = 'Contagem'
+            row_num += 1
+
+        for layer_conflito, contagem in conflitos['conflitos'].items():
+            layer1, layer2 = layer_conflito.split('%')
+
+            # Verifica a qual disciplina cada layer pertence
+            if layer1 in dicionario_layer_disciplina.get(disciplina1, []):
+                # layer1 pertence à disciplina1, layer2 pertence à disciplina2
+                aba[f'A{row_num}'] = layer1
+                aba[f'B{row_num}'] = layer2
+            else:
+                # layer2 pertence à disciplina1, layer1 pertence à disciplina2
+                aba[f'A{row_num}'] = layer2
+                aba[f'B{row_num}'] = layer1
+
+            aba[f'C{row_num}'] = contagem
+            row_num += 1
+
+        row_num += 1
+
+    workbook.save('D:/geoconversor/Mês_2/Problema_dos_clashs/teste/lista_conflitos_disciplinas.xlsx')
+
+def relacionar_conflitos_disciplinas(lista_conflitos, contagem_conflitos_total, lista_disciplinas, dicionario_layer_disciplina):
+    conflitos_por_disciplina = {}
+
+    for i in range(len(lista_disciplinas)):
+        for j in range(i + 1, len(lista_disciplinas)):  # Evita duplicatas (A x B e B x A)
+            disciplina1 = lista_disciplinas[i]
+            disciplina2 = lista_disciplinas[j]
+            chave_disciplinas = f"{disciplina1} x {disciplina2}"
+
+            conflitos_layer = {}
+            total_conflitos = 0
+
+            for k in range(len(lista_conflitos)):
+                layer1, layer2 = lista_conflitos[k].split('%')
+                contagem = contagem_conflitos_total[k]
+
+                # Verifica se o par de layers pertence às disciplinas
+                if (
+                    (layer1 in dicionario_layer_disciplina.get(disciplina1, []) and
+                     layer2 in dicionario_layer_disciplina.get(disciplina2, []))
+                    or
+                    (layer2 in dicionario_layer_disciplina.get(disciplina1, []) and
+                     layer1 in dicionario_layer_disciplina.get(disciplina2, []))
+                ):
+                    conflitos_layer[lista_conflitos[k]] = contagem
+                    total_conflitos += contagem
+
+            conflitos_por_disciplina[chave_disciplinas] = {
+                'conflitos': conflitos_layer,
+                'total': total_conflitos
+            }
+
+    return conflitos_por_disciplina
+
 def process_files():
     if not (clash_file_path.get() and matrix_file_path.get() and output_dir.get()):
         messagebox.showerror("Erro", "Por favor, selecione todos os arquivos necessários.")
         return
     
     try:
-        clashs = process_clash_file(clash_file_path.get())
-        print(clashs)
+        clashs, lista_disciplinas = process_clash_file(clash_file_path.get())
+        dicionario_layers_por_disciplinas = separar_layers(clashs)
+        
+        # DEBUG: Mostra as disciplinas e seus layers
+        print("=== RELAÇÃO DISCIPLINA/LAYERS ===")
+        for disciplina, layers in dicionario_layers_por_disciplinas.items():
+            print(f"{disciplina}:")
+            for layer in layers:
+                print(f" - {layer}")
+        
+        lista_conflitos, contagem_conflitos_total = contagem_conflitos_totais(clashs)
+        conflitos_por_disciplina = relacionar_conflitos_disciplinas(lista_conflitos, contagem_conflitos_total, lista_disciplinas, dicionario_layers_por_disciplinas)
+        excel_conflitos(lista_conflitos, contagem_conflitos_total)
+        excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layers_por_disciplinas)
         clashs_aprovados = process_matrix(clashs, matrix_file_path.get())
         criar_txts_por_disciplina(clashs_aprovados, output_dir.get())
         messagebox.showinfo("Sucesso", "Processamento concluído com sucesso!")
@@ -226,6 +382,16 @@ def create_gui():
     root = tk.Tk()
     root.title("Clash Analyzer")
     root.geometry("600x400")
+    
+    # Adiciona ícone
+    if getattr(sys, 'frozen', False):
+        icon_path = os.path.join(sys._MEIPASS, 'icon.ico')
+    else:
+        icon_path = 'icon.ico'
+    try:
+        root.iconbitmap(icon_path)
+    except:
+        pass
     
     # Inicializa as variáveis globais como StringVar's
     clash_file_path = tk.StringVar()
@@ -251,6 +417,7 @@ def create_gui():
     tk.Button(root, text="Processar", command=process_files).pack(pady=20)
     
     root.mainloop()
+
 
 if __name__ == "__main__":
     create_gui()
