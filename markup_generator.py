@@ -1,10 +1,11 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog, messagebox, ttk  # Import ttk for themed widgets
 import os
 import openpyxl
 from openpyxl import load_workbook
 import sys
 from collections import defaultdict
+import threading # Importando a biblioteca de threading
 
 import openpyxl.workbook
 
@@ -352,36 +353,56 @@ def relacionar_conflitos_disciplinas(lista_conflitos, contagem_conflitos_total, 
     return conflitos_por_disciplina
 
 def process_files():
-    if not (clash_file_path.get() and matrix_file_path.get() and output_dir.get()):
-        messagebox.showerror("Erro", "Por favor, selecione todos os arquivos necessários.")
-        return
-    
+    # Desabilita o botão de processamento para evitar cliques múltiplos
+    process_button.config(state=tk.DISABLED)
+    progress_bar['value'] = 0  # Reset progress bar
+    progress_label.config(text="Processando arquivo de clash...") # Update progress label
     try:
         clashs, lista_disciplinas = process_clash_file(clash_file_path.get())
+        progress_bar['value'] = 25 # Update progress bar
+        progress_label.config(text="Processando matriz...") # Update progress label
+
         dicionario_layers_por_disciplinas = separar_layers(clashs)
-        
+
         # DEBUG: Mostra as disciplinas e seus layers
         print("=== RELAÇÃO DISCIPLINA/LAYERS ===")
         for disciplina, layers in dicionario_layers_por_disciplinas.items():
             print(f"{disciplina}:")
             for layer in layers:
                 print(f" - {layer}")
-        
+
         lista_conflitos, contagem_conflitos_total = contagem_conflitos_totais(clashs)
-        conflitos_por_disciplina = relacionar_conflitos_disciplinas(lista_conflitos, contagem_conflitos_total, lista_disciplinas, dicionario_layers_por_disciplinas)
         excel_conflitos(lista_conflitos, contagem_conflitos_total)
+        progress_bar['value'] = 50 # Update progress bar
+        progress_label.config(text="Relacionando conflitos por disciplina...") # Update progress label
+        conflitos_por_disciplina = relacionar_conflitos_disciplinas(lista_conflitos, contagem_conflitos_total, lista_disciplinas, dicionario_layers_por_disciplinas)
         excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layers_por_disciplinas)
+        progress_bar['value'] = 75 # Update progress bar
+        progress_label.config(text="Processando matriz de aprovação...") # Update progress label
         clashs_aprovados = process_matrix(clashs, matrix_file_path.get())
         criar_txts_por_disciplina(clashs_aprovados, output_dir.get())
+        progress_bar['value'] = 100 # Update progress bar
+        progress_label.config(text="Concluído!") # Update progress label
         messagebox.showinfo("Sucesso", "Processamento concluído com sucesso!")
     except Exception as e:
         messagebox.showerror("Erro", f"Erro durante o processamento: {str(e)}")
+        progress_label.config(text="Erro durante o processamento.") # Update progress label in case of error
+    finally:
+        # Reabilita o botão de processamento após a conclusão ou erro
+        process_button.config(state=tk.NORMAL)
+
+def start_processing():
+    # Cria e inicia uma thread para a função process_files
+    thread = threading.Thread(target=process_files)
+    thread.start()
 
 def create_gui():
-    global clash_file_path, matrix_file_path, output_dir
+    global clash_file_path, matrix_file_path, output_dir, process_button, progress_bar, progress_label # Adicionado progress_bar e progress_label como globais
     root = tk.Tk()
     root.title("Clash Analyzer")
-    root.geometry("600x400")
+    root.geometry("600x450") # Altura um pouco maior para a barra de progresso
+    root.columnconfigure(0, weight=1) # Permite que a coluna 0 se expanda
+    root.rowconfigure(0, weight=1)    # Permite que a linha 0 se expanda
     
     # Adiciona ícone
     if getattr(sys, 'frozen', False):
@@ -397,25 +418,38 @@ def create_gui():
     clash_file_path = tk.StringVar()
     matrix_file_path = tk.StringVar()
     output_dir = tk.StringVar()
-    
-    # Seleção do Arquivo de Clash
-    tk.Label(root, text="Arquivo de Clash:").pack(pady=5)
-    tk.Entry(root, textvariable=clash_file_path, width=50).pack(pady=5)
-    tk.Button(root, text="Selecionar Arquivo", command=select_clash_file).pack(pady=5)
-    
-    # Seleção do Arquivo da Matriz
-    tk.Label(root, text="Arquivo da Matriz:").pack(pady=5)
-    tk.Entry(root, textvariable=matrix_file_path, width=50).pack(pady=5)
-    tk.Button(root, text="Selecionar Matriz", command=select_matrix_file).pack(pady=5)
-    
-    # Seleção do Diretório de Saída
-    tk.Label(root, text="Diretório de Saída:").pack(pady=5)
-    tk.Entry(root, textvariable=output_dir, width=50).pack(pady=5)
-    tk.Button(root, text="Selecionar Diretório", command=select_output_dir).pack(pady=5)
-    
+
+    # Frame principal para organizar os widgets
+    main_frame = ttk.Frame(root, padding="20") # Usando ttk.Frame e adicionando padding diretamente
+    main_frame.grid(column=0, row=0, sticky=(tk.W, tk.E, tk.N, tk.S)) # Usando grid e sticky para expansão
+
+    # Labels e Entradas - Organizado com grid
+    ttk.Label(main_frame, text="Arquivo de Clash:").grid(column=0, row=0, sticky=tk.W, padx=5, pady=5)
+    clash_entry = ttk.Entry(main_frame, textvariable=clash_file_path, width=50)
+    clash_entry.grid(column=1, row=0, sticky=(tk.W, tk.E), padx=5, pady=5)
+    ttk.Button(main_frame, text="Selecionar Arquivo", command=select_clash_file).grid(column=2, row=0, sticky=tk.W, padx=5, pady=5)
+
+    ttk.Label(main_frame, text="Arquivo da Matriz:").grid(column=0, row=1, sticky=tk.W, padx=5, pady=5)
+    matrix_entry = ttk.Entry(main_frame, textvariable=matrix_file_path, width=50)
+    matrix_entry.grid(column=1, row=1, sticky=(tk.W, tk.E), padx=5, pady=5)
+    ttk.Button(main_frame, text="Selecionar Matriz", command=select_matrix_file).grid(column=2, row=1, sticky=tk.W, padx=5, pady=5)
+
+    ttk.Label(main_frame, text="Diretório de Saída:").grid(column=0, row=2, sticky=tk.W, padx=5, pady=5)
+    output_entry = ttk.Entry(main_frame, textvariable=output_dir, width=50)
+    output_entry.grid(column=1, row=2, sticky=(tk.W, tk.E), padx=5, pady=5)
+    ttk.Button(main_frame, text="Selecionar Diretório", command=select_output_dir).grid(column=2, row=2, sticky=tk.W, padx=5, pady=5)
+
+    # Barra de Progresso
+    progress_bar = ttk.Progressbar(main_frame, orient=tk.HORIZONTAL, length=300, mode='determinate')
+    progress_bar.grid(column=0, row=3, columnspan=3, sticky=(tk.W, tk.E), padx=5, pady=10)
+    progress_label = ttk.Label(main_frame, text="") # Label para exibir o status do progresso
+    progress_label.grid(column=0, row=4, columnspan=3, sticky=tk.W, padx=5)
+
+
     # Botão para Processar os Arquivos
-    tk.Button(root, text="Processar", command=process_files).pack(pady=20)
-    
+    process_button = ttk.Button(main_frame, text="Processar", command=start_processing) # Chama start_processing agora
+    process_button.grid(column=1, row=5, pady=20) # Centralizado na coluna 1
+
     root.mainloop()
 
 
