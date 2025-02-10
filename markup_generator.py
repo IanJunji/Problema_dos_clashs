@@ -85,9 +85,33 @@ def extract_disciplina(linha):
         print(f"Erro durante a extração da disciplina: {e}")
         return None
 
+def is_clash_complete(clash):
+    """
+    Verifica se o dicionário do clash contém todas as informações obrigatórias.
+    Caso algum campo obrigatório esteja faltando ou com valor vazio (e para os layers,
+    se o valor for 'Layer_vazio'), a função retorna False.
+    """
+    required_fields = [
+        'name', 'id', 'coord_x', 'coord_y', 'coord_z',
+        'disciplina_1', 'disciplina_2', 'entity_1', 'entity_2',
+        'layer_1', 'layer_2'
+    ]
+    for field in required_fields:
+        if field not in clash or not clash[field]:
+            return False
+        if field in ['layer_1', 'layer_2'] and clash[field] == 'Layer_vazio':
+            return False
+    return True
+
 def process_clash_file(filepath):
+    """
+    Processa o arquivo de clash e separa os registros válidos dos problemáticos.
+    Os registros válidos são retornados em 'clashs' e os problemáticos em 'clashs_problematicos'.
+    Também retorna a lista de disciplinas encontradas.
+    """
     lista_disciplinas = []
-    clashs = []
+    clashs = []               # Registros completos
+    clashs_problematicos = [] # Registros com informações faltantes
     current_clash = {}
     
     with open(filepath, 'r', encoding='utf-8') as arquivo:
@@ -97,8 +121,11 @@ def process_clash_file(filepath):
         linha = linhas[i].strip()
         
         if linha.startswith('Name:'):
-            if current_clash:  # Se já houver um clash em progresso, adiciona-o à lista
-                clashs.append(current_clash)
+            if current_clash:  # Se já houver um clash em progresso, faz a verificação
+                if is_clash_complete(current_clash):
+                    clashs.append(current_clash)
+                else:
+                    clashs_problematicos.append(current_clash)
             current_clash = {}  # Inicia um novo clash
             _, valor = linha.split(':', 1)
             current_clash['name'] = valor.strip()
@@ -143,7 +170,6 @@ def process_clash_file(filepath):
             else:
                 current_clash['layer_1'] = 'Layer_vazio'
 
-
         elif linha.startswith('Item 2'):
             if linhas[i+1].startswith('Layer:'):
                 _, valor = linhas[i+1].split(':', 1)
@@ -151,16 +177,18 @@ def process_clash_file(filepath):
             else:
                 current_clash['layer_2'] = 'Layer_vazio'
 
-
+    # Ao final, verifica o último clash processado
     if current_clash:
-        clashs.append(current_clash)
-    return clashs, lista_disciplinas
+        if is_clash_complete(current_clash):
+            clashs.append(current_clash)
+        else:
+            clashs_problematicos.append(current_clash)
+    return clashs, lista_disciplinas, clashs_problematicos
 
 def process_matrix(clashs, matrix_path):
     # Carrega a planilha e as abas
     workbook = openpyxl.load_workbook(matrix_path)
     aba_matriz = workbook['Matriz']
-    aba_listagem = workbook['Listagem']
 
     # Inicialize a lista que armazenará os clashs aprovados
     clashs_semi_aprovados = []
@@ -193,6 +221,34 @@ def process_matrix(clashs, matrix_path):
             if aba_matriz.cell(row=row, column=coluna).value == 'O':
                 clashs_semi_aprovados.append(clash)
     return clashs_semi_aprovados
+
+def separacao_de_excecao(clashs, matriz_path):
+    planilha = openpyxl.load_workbook(matriz_path)
+    aba = planilha['exceções']
+    clashs_aprovados = []
+    for clash in clashs:
+        # Obtemos os layers do clash e garantimos que sejam strings sem espaços a mais
+        layer1 = str(clash.get('layer_1', '')).strip()
+        layer2 = str(clash.get('layer_2', '')).strip()
+        is_excecao = False  # Flag que identifica se o clash está na lista de exceções
+        
+        # Percorre todas as linhas da aba de exceções.
+        # Use range(1, aba.max_row + 1) para iterar corretamente sobre as linhas
+        for i in range(1, aba.max_row + 1):
+            cell_ex1 = aba.cell(row=i, column=2)
+            cell_ex2 = aba.cell(row=i, column=4)
+            # Obtemos o valor das células (convertendo para string e removendo espaços, se não forem None)
+            layer_ex1 = str(cell_ex1.value).strip() if cell_ex1.value is not None else ''
+            layer_ex2 = str(cell_ex2.value).strip() if cell_ex2.value is not None else ''
+            
+            if (layer1 == layer_ex1 and layer2 == layer_ex2) or (layer1 == layer_ex2 and layer2 == layer_ex1):
+                is_excecao = True
+                break  # Já encontrou a exceção, não é necessário continuar verificando
+        
+        if not is_excecao:
+            clashs_aprovados.append(clash)
+    
+    return clashs_aprovados
 
 def criar_txts_por_disciplina(clashs_aprovados, diretorio_saida):
     os.makedirs(diretorio_saida, exist_ok=True)
@@ -228,6 +284,30 @@ def criar_txts_por_disciplina(clashs_aprovados, diretorio_saida):
                 caminho_txt = os.path.join(diretorio_saida, f"{disciplina}.txt")
                 with open(caminho_txt, 'a', encoding='utf-8') as txt_file:
                     txt_file.write(conteudo)
+
+def criar_txt_defeitos(clashs_problematicos, diretorio_saida):
+    """
+    Cria um arquivo 'defeitos.txt' no diretório de saída com os detalhes dos clashs
+    que estão faltando informações obrigatórias.
+    """
+    os.makedirs(diretorio_saida, exist_ok=True)
+    caminho_defeitos = os.path.join(diretorio_saida, "defeitos.txt")
+    
+    with open(caminho_defeitos, 'w', encoding='utf-8') as txt_file:
+        for clash in clashs_problematicos:
+            conteudo = f"Nome: {clash.get('name', 'N/A')}\n"
+            conteudo += f"ID: {clash.get('id', 'N/A')}\n"
+            conteudo += f"Coord X: {clash.get('coord_x', 'N/A')}\n"
+            conteudo += f"Coord Y: {clash.get('coord_y', 'N/A')}\n"
+            conteudo += f"Coord Z: {clash.get('coord_z', 'N/A')}\n"
+            conteudo += f"Disciplina 1: {clash.get('disciplina_1', 'N/A')}\n"
+            conteudo += f"Disciplina 2: {clash.get('disciplina_2', 'N/A')}\n"
+            conteudo += f"Entity 1: {clash.get('entity_1', 'N/A')}\n"
+            conteudo += f"Entity 2: {clash.get('entity_2', 'N/A')}\n"
+            conteudo += f"Layer 1: {clash.get('layer_1', 'N/A')}\n"
+            conteudo += f"Layer 2: {clash.get('layer_2', 'N/A')}\n"
+            conteudo += "-"*40 + "\n"
+            txt_file.write(conteudo)
 
 def contagem_conflitos_totais(clashs):
     lista_conflitos = []
@@ -267,17 +347,7 @@ def separar_layers(clashs):
 
     return dict(disciplinas_layers)
 
-def excel_conflitos(conflitos, contagem):
-    workbook = openpyxl.Workbook()
-    aba = workbook.active
-    for i in range(len(conflitos)):
-        layer1, layer2 = conflitos[i].split('%', 1)
-        aba[f'A{i+1}'].value = layer1
-        aba[f'B{i+1}'].value = layer2
-        aba[f'C{i+1}'].value = contagem[i]
-    workbook.save('D:/geoconversor/Mês_2/Problema_dos_clashs/teste/lista.xlsx')
-
-def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_disciplina):
+def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_disciplina, saida):
     workbook = openpyxl.Workbook()
     aba = workbook.active
 
@@ -316,7 +386,7 @@ def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_di
 
         row_num += 1
 
-    workbook.save('D:/geoconversor/Mês_2/Problema_dos_clashs/teste/lista_conflitos_disciplinas.xlsx')
+    workbook.save(f'{saida}/lista_conflitos_disciplinas.xlsx')
 
 def relacionar_conflitos_disciplinas(lista_conflitos, contagem_conflitos_total, lista_disciplinas, dicionario_layer_disciplina):
     conflitos_por_disciplina = {}
@@ -356,12 +426,13 @@ def process_files():
     # Desabilita o botão de processamento para evitar cliques múltiplos
     process_button.config(state=tk.DISABLED)
     progress_bar['value'] = 0  # Reset progress bar
-    progress_label.config(text="Processando arquivo de clash...") # Update progress label
+    progress_label.config(text="Processando arquivo de clash...")
     try:
-        clashs, lista_disciplinas = process_clash_file(clash_file_path.get())
-        progress_bar['value'] = 25 # Update progress bar
-        progress_label.config(text="Processando matriz...") # Update progress label
-
+        # Agora a função retorna também os clashs problemáticos
+        clashs, lista_disciplinas, clashs_problematicos = process_clash_file(clash_file_path.get())
+        progress_bar['value'] = 25
+        progress_label.config(text="Processando matriz...")
+        
         dicionario_layers_por_disciplinas = separar_layers(clashs)
 
         # DEBUG: Mostra as disciplinas e seus layers
@@ -372,23 +443,26 @@ def process_files():
                 print(f" - {layer}")
 
         lista_conflitos, contagem_conflitos_total = contagem_conflitos_totais(clashs)
-        excel_conflitos(lista_conflitos, contagem_conflitos_total)
-        progress_bar['value'] = 50 # Update progress bar
-        progress_label.config(text="Relacionando conflitos por disciplina...") # Update progress label
+        progress_bar['value'] = 50
+        progress_label.config(text="Relacionando conflitos por disciplina...")
         conflitos_por_disciplina = relacionar_conflitos_disciplinas(lista_conflitos, contagem_conflitos_total, lista_disciplinas, dicionario_layers_por_disciplinas)
-        excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layers_por_disciplinas)
-        progress_bar['value'] = 75 # Update progress bar
-        progress_label.config(text="Processando matriz de aprovação...") # Update progress label
-        clashs_aprovados = process_matrix(clashs, matrix_file_path.get())
+        excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layers_por_disciplinas, output_dir.get())
+        progress_bar['value'] = 75
+        progress_label.config(text="Processando matriz de aprovação...")
+        clash_semi_aprovados = process_matrix(clashs, matrix_file_path.get())
+        clashs_aprovados = separacao_de_excecao(clash_semi_aprovados, matrix_file_path.get())
         criar_txts_por_disciplina(clashs_aprovados, output_dir.get())
-        progress_bar['value'] = 100 # Update progress bar
-        progress_label.config(text="Concluído!") # Update progress label
+        
+        # Cria o arquivo com os clashs problemáticos, se houver
+        criar_txt_defeitos(clashs_problematicos, output_dir.get())
+        
+        progress_bar['value'] = 100
+        progress_label.config(text="Concluído!")
         messagebox.showinfo("Sucesso", "Processamento concluído com sucesso!")
     except Exception as e:
         messagebox.showerror("Erro", f"Erro durante o processamento: {str(e)}")
-        progress_label.config(text="Erro durante o processamento.") # Update progress label in case of error
+        progress_label.config(text="Erro durante o processamento.")
     finally:
-        # Reabilita o botão de processamento após a conclusão ou erro
         process_button.config(state=tk.NORMAL)
 
 def start_processing():
