@@ -6,6 +6,7 @@ from openpyxl import load_workbook
 import sys
 from collections import defaultdict
 import threading # Importando a biblioteca de threading
+from openpyxl.styles import PatternFill, Border, Side
 
 import openpyxl.workbook
 
@@ -456,17 +457,22 @@ def separar_layers(clashs):
 # Propósito: Gerar uma planilha Excel listando os conflitos (layers e contagens)
 # organizados por pares de disciplinas.
 # ------------------------------------------------------------
-def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_disciplina, saida):
+def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_disciplina, saida, aprovado, excecao):
     # Cria uma nova planilha Excel e seleciona a primeira aba
     workbook = openpyxl.Workbook()
     aba = workbook.active
 
+    # Configura os títulos das colunas fixos no cabeçalho (linha 1)
+    aba['D1'] = 'Status'
+    aba['E1'] = 'Justificativa'
+    aba['F1'] = 'Imagem'
+
     # Variável que controla a numeração das linhas na planilha
-    row_num = 1
+    row_num = 2
 
     # Itera sobre cada par de disciplinas e os respectivos conflitos
     for disciplinas_chave, conflitos in conflitos_por_disciplina.items():
-        # Adiciona os títulos das colunas para cada par de disciplinas
+        # Adiciona os títulos das colunas para cada par de disciplinas com mesclagem
         aba.merge_cells(f'A{row_num}:B{row_num}')
         aba[f'A{row_num}'] = 'Disciplinas'
         aba[f'C{row_num}'] = 'Soma'
@@ -487,8 +493,8 @@ def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_di
         # Se houver detalhes de conflitos (camadas específicas), insere um cabeçalho para os detalhes
         if conflitos['conflitos']:
             aba.merge_cells(f'A{row_num}:B{row_num}')
-            aba[f'A{row_num}'] = 'Layers'  # Cabeçalho para Layer
-            aba[f'C{row_num}'] = 'Contagem' # Cabeçalho para a contagem de conflitos
+            aba[f'A{row_num}'] = 'Layers'        # Cabeçalho para Layers
+            aba[f'C{row_num}'] = 'Contagem'        # Cabeçalho para a contagem de conflitos
             row_num += 1
 
         # Itera sobre cada detalhe de conflito para esse par de disciplinas
@@ -504,6 +510,32 @@ def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_di
                 aba[f'A{row_num}'] = layer2  # Caso contrário, inverte a ordem
                 aba[f'B{row_num}'] = layer1
             aba[f'C{row_num}'] = contagem  # Coloca a contagem de conflitos na coluna C
+            
+            # Determina o status do conflito comparando com os clashs aprovados e exceções,
+            # e busca o ID do primeiro clash correspondente.
+            status = ""
+            clash_id = ""
+            # Verifica nos clashs aprovados
+            for clash in aprovado:
+                clash_layers = {clash.get('layer_1', ''), clash.get('layer_2', '')}
+                conflict_layers = {layer1, layer2}
+                if clash_layers == conflict_layers:
+                    status = "ativo"
+                    clash_id = clash.get('id', '')
+                    break
+            # Se não encontrado, verifica nos clashs exceções
+            if not clash_id:
+                for clash in excecao:
+                    clash_layers = {clash.get('layer_1', ''), clash.get('layer_2', '')}
+                    conflict_layers = {layer1, layer2}
+                    if clash_layers == conflict_layers:
+                        status = "aprovado"
+                        clash_id = clash.get('id', '')
+                        break
+
+            # Escreve o status na coluna D e o ID do clash na coluna F
+            aba[f'D{row_num}'] = status
+            aba[f'F{row_num}'] = clash_id
             row_num += 1  # Avança para a próxima linha
 
         # Adiciona uma linha em branco para separar os grupos de conflitos entre disciplinas
@@ -513,6 +545,46 @@ def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_di
         aba.column_dimensions['A'].width = 30
         aba.column_dimensions['B'].width = 30
         aba.column_dimensions['C'].width = 15
+        aba.column_dimensions['D'].width = 15
+        aba.column_dimensions['E'].width = 40
+        aba.column_dimensions['F'].width = 20
+
+        for col in aba.iter_cols(min_col=3, max_col=3):
+            for cel in col:
+                if cel.value == 'Soma':
+                    linha = cel.row
+                    coluna = cel.column
+                    # Cria um objeto PatternFill com a cor desejada
+                    fill1 = PatternFill(start_color="D8E4BC", end_color="D8E4BC", fill_type = "solid")  # Cor D8E4BC
+                    fill2 = PatternFill(start_color="DCE6F1", end_color="DCE6F1", fill_type = "solid")  # Cor DCE6F1
+                    # Aplica o preenchimento às células
+                    aba.cell(row=linha, column=coluna).fill = fill1
+                    aba.cell(row=linha, column=coluna-1).fill = fill2
+                elif cel.value == 'Contagem':
+                    linha = cel.row
+                    coluna = cel.column
+                    fill3 = PatternFill(start_color="CCC0DA", end_color="CCC0DA", fill_type = "solid")  # Cor CCC0DA
+                    fill4 = PatternFill(start_color="FDE9D9", end_color="FDE9D9", fill_type = "solid")  # Cor FDE9D9
+                    aba.cell(row=linha, column=coluna).fill = fill3
+                    aba.cell(row=linha, column=coluna-1).fill = fill4
+        
+        print('Cores concluidas')
+
+        for col in aba.iter_cols(min_row=2, min_col=1, max_col=1):
+            for cel in col:
+                if cel.value == 'Disciplinas':
+                    linha = cel.row
+                    coluna = cel.column
+                    for col in range(1, 4):
+                        if aba.cell(row=linha, column=coluna).value != '':
+                            thin_border = Border(left=Side(style='thin'),
+                                         right=Side(style='thin'),
+                                         top=Side(style='thin'),
+                                         bottom=Side(style='thin'))
+                            cel.border = thin_border
+                            linha += 1
+        
+        print('Bordas Concluidas')
 
     # Salva a planilha no diretório de saída especificado com o nome 'lista_conflitos_disciplinas.xlsx'
     workbook.save(f'{saida}/lista_conflitos_disciplinas.xlsx')
@@ -643,20 +715,31 @@ def process_files():
         conflitos_por_disciplina = relacionar_conflitos_disciplinas(
             lista_conflitos, contagem_conflitos_total, lista_disciplinas, dicionario_layers_por_disciplinas
         )
+        progress_bar['value'] = 80
+        progress_label.config(text="Processando matriz de aprovação... 80")
 
-        # Gera o arquivo Excel com os conflitos entre disciplinas para os clashs semi-aprovados
-        excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layers_por_disciplinas, output_dir.get())
-        
         # **************************************************
         # Etapa 5: Aprovação e verificação de exceções na matriz
         # **************************************************
         clashs_aprovados, clashs_excecoes = separacao_de_excecao(clash_semi_aprovados, matrix_file_path.get())
+        progress_bar['value'] = 85
+        progress_label.config(text="Processando matriz de aprovação... 85")
+
+        # Gera o arquivo Excel com os conflitos entre disciplinas para os clashs semi-aprovados
+        excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layers_por_disciplinas, output_dir.get(), clashs_aprovados, clashs_excecoes)
+        progress_bar['value'] = 90
+        progress_label.config(text="Processando matriz de aprovação... 90")
+
         
         # **************************************************
         # Etapa 6: Geração dos arquivos TXT por disciplina e dos defeitos
         # **************************************************
         criar_txts_por_disciplina(clashs_aprovados, output_dir.get())
+        progress_bar['value'] = 95
+        progress_label.config(text="Processando matriz de aprovação... 95")
         criar_txt_defeitos(clashs_problematicos, output_dir.get())
+        progress_bar['value'] = 98
+        progress_label.config(text="Processando matriz de aprovação... 98")
         
         # **************************************************
         # Etapa Final: Conclusão do processamento e exibição dos resultados
