@@ -1,0 +1,3670 @@
+X: 618923.803
+Y: 492940.955
+Z: 445.989
+Objetos: Sinalização Vertical X Topografia
+ID: cd382813
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 618923.803
+Y: 492940.955
+Z: 445.779
+Objetos: Sinalização Vertical X Topografia
+ID: cd382814
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-BASE_GRANULAR
+----------------------------------------
+X: 618923.803
+Y: 492940.955
+Z: 445.869
+Objetos: Sinalização Vertical X Topografia
+ID: cd382815
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-PISTA_PAVIMENTADA
+----------------------------------------
+X: 619071.007
+Y: 492918.143
+Z: 446.225
+Objetos: Sinalização Vertical X Topografia
+ID: cd384838
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-PISTA_PAVIMENTADA
+----------------------------------------
+X: 620615.838
+Y: 494590.114
+Z: 307.033
+Objetos: Sinalização Vertical X Topografia
+ID: cd384953
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620615.838
+Y: 494590.114
+Z: 307.015
+Objetos: Sinalização Vertical X Topografia
+ID: cd385533
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-PISTA_PAVIMENTADA
+----------------------------------------
+X: 620979.738
+Y: 494430.559
+Z: 283.288
+Objetos: Sinalização Vertical X Topografia
+ID: cd386817
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620754.950
+Y: 493469.360
+Z: 161.495
+Objetos: Sinalização Vertical X Topografia
+ID: cd388878
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619181.167
+Y: 493032.557
+Z: 445.909
+Objetos: Sinalização Vertical X Topografia
+ID: cd389434
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621571.023
+Y: 494433.018
+Z: 244.999
+Objetos: Sinalização Vertical X Topografia
+ID: cd389634
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621570.201
+Y: 494388.082
+Z: 242.525
+Objetos: Sinalização Vertical X Topografia
+ID: cd389635
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621568.287
+Y: 494373.229
+Z: 241.709
+Objetos: Sinalização Vertical X Topografia
+ID: cd389636
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621564.475
+Y: 494477.502
+Z: 247.496
+Objetos: Sinalização Vertical X Topografia
+ID: cd389637
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621560.694
+Y: 494491.992
+Z: 248.326
+Objetos: Sinalização Vertical X Topografia
+ID: cd389638
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621524.772
+Y: 494262.402
+Z: 236.730
+Objetos: Sinalização Vertical X Topografia
+ID: cd389953
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620897.461
+Y: 494405.873
+Z: 288.518
+Objetos: Sinalização Vertical X Topografia
+ID: cd389986
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621012.759
+Y: 493298.581
+Z: 114.499
+Objetos: Sinalização Vertical X Topografia
+ID: cd3810010
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621484.640
+Y: 492878.666
+Z: 101.339
+Objetos: Sinalização Vertical X Topografia
+ID: cd3810571
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620615.838
+Y: 494590.114
+Z: 306.915
+Objetos: Sinalização Vertical X Topografia
+ID: cd3811126
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-BASE_GRANULAR
+----------------------------------------
+X: 621516.122
+Y: 494250.234
+Z: 236.216
+Objetos: Sinalização Vertical X Topografia
+ID: cd3811401
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621470.527
+Y: 494238.549
+Z: 227.498
+Objetos: Sinalização Vertical X Topografia
+ID: cd3811534
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619581.190
+Y: 494224.294
+Z: 371.262
+Objetos: Sinalização Vertical X Topografia
+ID: cd3811871
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620726.133
+Y: 493796.753
+Z: 160.868
+Objetos: Sinalização Vertical X Topografia
+ID: cd3811924
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621245.772
+Y: 494684.391
+Z: 272.707
+Objetos: Sinalização Vertical X Topografia
+ID: cd3812084
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621407.453
+Y: 494667.011
+Z: 263.089
+Objetos: Sinalização Vertical X Topografia
+ID: cd3812094
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621571.601
+Y: 494418.091
+Z: 244.155
+Objetos: Sinalização Vertical X Topografia
+ID: cd3812402
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619441.907
+Y: 493545.122
+Z: 410.220
+Objetos: Sinalização Vertical X Topografia
+ID: cd3812550
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-PISTA_PAVIMENTADA
+----------------------------------------
+X: 621692.428
+Y: 491789.178
+Z: 66.938
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3812790
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620659.968
+Y: 493632.503
+Z: 149.586
+Objetos: Sinalização Vertical X Topografia
+ID: cd3812814
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619602.607
+Y: 494245.304
+Z: 369.291
+Objetos: Sinalização Vertical X Topografia
+ID: cd3813227
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619131.612
+Y: 493032.638
+Z: 443.956
+Objetos: Sinalização Vertical X Topografia
+ID: cd3813273
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620748.046
+Y: 493638.687
+Z: 148.234
+Objetos: Sinalização Vertical X Topografia
+ID: cd3813913
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 618941.312
+Y: 492956.899
+Z: 443.841
+Objetos: Sinalização Vertical X Topografia
+ID: cd3814289
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621305.391
+Y: 494689.279
+Z: 269.260
+Objetos: Sinalização Vertical X Topografia
+ID: cd3814357
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619112.120
+Y: 493009.819
+Z: 444.226
+Objetos: Sinalização Vertical X Topografia
+ID: cd3814487
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621550.782
+Y: 494520.273
+Z: 249.991
+Objetos: Sinalização Vertical X Topografia
+ID: cd3814538
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621320.365
+Y: 494688.450
+Z: 268.399
+Objetos: Sinalização Vertical X Topografia
+ID: cd3814871
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621426.418
+Y: 492946.637
+Z: 106.323
+Objetos: Sinalização Vertical X Topografia
+ID: cd3814875
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620742.198
+Y: 493854.366
+Z: 164.813
+Objetos: Sinalização Vertical X Topografia
+ID: cd3815008
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619483.817
+Y: 493916.996
+Z: 383.547
+Objetos: Sinalização Vertical X Topografia
+ID: cd3815256
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621174.946
+Y: 494660.301
+Z: 276.365
+Objetos: Sinalização Vertical X Topografia
+ID: cd3815493
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620664.592
+Y: 493634.356
+Z: 149.523
+Objetos: Sinalização Vertical X Topografia
+ID: cd3816029
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619418.467
+Y: 493880.568
+Z: 393.509
+Objetos: Sinalização Vertical X Topografia
+ID: cd3816128
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620833.876
+Y: 493965.538
+Z: 175.480
+Objetos: Sinalização Vertical X Topografia
+ID: cd3816485
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621414.371
+Y: 492955.706
+Z: 107.194
+Objetos: Sinalização Vertical X Topografia
+ID: cd3816502
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619166.714
+Y: 493013.113
+Z: 446.578
+Objetos: Sinalização Vertical X Topografia
+ID: cd3816688
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619071.007
+Y: 492918.143
+Z: 446.025
+Objetos: Sinalização Vertical X Topografia
+ID: cd3816869
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-BASE_GRANULAR
+----------------------------------------
+X: 621309.321
+Y: 493028.510
+Z: 84.750
+Objetos: Sinalização Vertical X Topografia
+ID: cd3817731
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619451.700
+Y: 493579.116
+Z: 407.901
+Objetos: Sinalização Vertical X Topografia
+ID: cd3817751
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619108.957
+Y: 492954.738
+Z: 446.753
+Objetos: Sinalização Vertical X Topografia
+ID: cd3817828
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620790.922
+Y: 493929.456
+Z: 171.375
+Objetos: Sinalização Vertical X Topografia
+ID: cd3818462
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620704.695
+Y: 493620.946
+Z: 153.457
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3818660
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619451.369
+Y: 493579.671
+Z: 407.809
+Objetos: Sinalização Vertical X Topografia
+ID: cd3818759
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619113.404
+Y: 493010.656
+Z: 444.207
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3818836
+Entity1: 
+Entity2: 
+Layer1: M_SECO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621544.635
+Y: 494534.026
+Z: 250.842
+Objetos: Sinalização Vertical X Topografia
+ID: cd3819149
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621692.403
+Y: 491789.145
+Z: 66.774
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3820514
+Entity1: 
+Entity2: 
+Layer1: BGMC
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.403
+Y: 491789.145
+Z: 66.774
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3820515
+Entity1: 
+Entity2: 
+Layer1: BGTC
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.403
+Y: 491789.145
+Z: 66.774
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3820552
+Entity1: 
+Entity2: 
+Layer1: P-LIGANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.403
+Y: 491789.145
+Z: 66.774
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3820553
+Entity1: 
+Entity2: 
+Layer1: P-IMPERMEABILIZANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620837.096
+Y: 493967.513
+Z: 175.649
+Objetos: Sinalização Vertical X Topografia
+ID: cd3820623
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619561.811
+Y: 494201.528
+Z: 372.986
+Objetos: Sinalização Vertical X Topografia
+ID: cd3823111
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621567.496
+Y: 494462.852
+Z: 246.641
+Objetos: Sinalização Vertical X Topografia
+ID: cd3825168
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620724.353
+Y: 493781.782
+Z: 159.876
+Objetos: Sinalização Vertical X Topografia
+ID: cd3825955
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620674.116
+Y: 493637.382
+Z: 149.543
+Objetos: Sinalização Vertical X Topografia
+ID: cd3826722
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621309.320
+Y: 493028.510
+Z: 84.799
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3827000
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621260.506
+Y: 494686.877
+Z: 271.845
+Objetos: Sinalização Vertical X Topografia
+ID: cd3828704
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621448.618
+Y: 492926.637
+Z: 104.578
+Objetos: Sinalização Vertical X Topografia
+ID: cd3829722
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620728.784
+Y: 493811.439
+Z: 161.821
+Objetos: Sinalização Vertical X Topografia
+ID: cd3829897
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621275.455
+Y: 494688.455
+Z: 270.983
+Objetos: Sinalização Vertical X Topografia
+ID: cd3829935
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620849.987
+Y: 493975.183
+Z: 176.688
+Objetos: Sinalização Vertical X Topografia
+ID: cd3830078
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620748.364
+Y: 493868.035
+Z: 165.865
+Objetos: Sinalização Vertical X Topografia
+ID: cd3830406
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621521.786
+Y: 492932.959
+Z: 73.007
+Objetos: Sinalização Vertical X Topografia
+ID: cd3830432
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619423.762
+Y: 493909.912
+Z: 391.768
+Objetos: Sinalização Vertical X Topografia
+ID: cd3831262
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619420.468
+Y: 493895.278
+Z: 392.640
+Objetos: Sinalização Vertical X Topografia
+ID: cd3831470
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621496.732
+Y: 494227.317
+Z: 235.330
+Objetos: Sinalização Vertical X Topografia
+ID: cd3831902
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619171.728
+Y: 493020.255
+Z: 446.029
+Objetos: Sinalização Vertical X Topografia
+ID: cd3832011
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620732.421
+Y: 493826.046
+Z: 162.802
+Objetos: Sinalização Vertical X Topografia
+ID: cd3832629
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620678.973
+Y: 493638.558
+Z: 149.573
+Objetos: Sinalização Vertical X Topografia
+ID: cd3833486
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621188.515
+Y: 494666.672
+Z: 275.711
+Objetos: Sinalização Vertical X Topografia
+ID: cd3833572
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621231.066
+Y: 494681.158
+Z: 273.571
+Objetos: Sinalização Vertical X Topografia
+ID: cd3833666
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619470.884
+Y: 494030.817
+Z: 385.797
+Objetos: Sinalização Vertical X Topografia
+ID: cd3833983
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619470.883
+Y: 494030.818
+Z: 385.801
+Objetos: Sinalização Vertical X Topografia
+ID: cd3834329
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621294.771
+Y: 493031.884
+Z: 86.160
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3834439
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619538.347
+Y: 494063.540
+Z: 376.244
+Objetos: Sinalização Vertical X Topografia
+ID: cd3834651
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621569.694
+Y: 494447.936
+Z: 245.803
+Objetos: Sinalização Vertical X Topografia
+ID: cd3834685
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619432.501
+Y: 493938.780
+Z: 389.950
+Objetos: Sinalização Vertical X Topografia
+ID: cd3834837
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620718.753
+Y: 493615.907
+Z: 154.856
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3835039
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619143.398
+Y: 492984.396
+Z: 446.769
+Objetos: Sinalização Vertical X Topografia
+ID: cd3835318
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621437.851
+Y: 492937.042
+Z: 105.433
+Objetos: Sinalização Vertical X Topografia
+ID: cd3835463
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620771.620
+Y: 493906.471
+Z: 169.655
+Objetos: Sinalização Vertical X Topografia
+ID: cd3835483
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621433.058
+Y: 494654.757
+Z: 260.818
+Objetos: Sinalização Vertical X Topografia
+ID: cd3835537
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621507.511
+Y: 494285.811
+Z: 231.791
+Objetos: Sinalização Vertical X Topografia
+ID: cd3835608
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621139.106
+Y: 494568.411
+Z: 276.064
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3835669
+Entity1: 
+Entity2: 
+Layer1: LASTRO_PASSEIO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621139.105
+Y: 494568.412
+Z: 276.134
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3835670
+Entity1: 
+Entity2: 
+Layer1: CONCRETO_PASSEIO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621471.073
+Y: 494627.539
+Z: 258.534
+Objetos: Sinalização Vertical X Topografia
+ID: cd3837156
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621265.781
+Y: 494636.346
+Z: 267.940
+Objetos: Sinalização Vertical X Topografia
+ID: cd3837425
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619471.058
+Y: 494030.690
+Z: 384.740
+Objetos: Sinalização Vertical X Topografia
+ID: cd3837475
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620699.707
+Y: 493621.294
+Z: 153.018
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3837637
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621379.139
+Y: 494677.026
+Z: 265.144
+Objetos: Sinalização Vertical X Topografia
+ID: cd3837774
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619914.316
+Y: 494346.830
+Z: 342.350
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3838769
+Entity1: 
+Entity2: 
+Layer1: M_SECO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619914.316
+Y: 494346.830
+Z: 342.350
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3838770
+Entity1: 
+Entity2: 
+Layer1: M_SECO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619481.957
+Y: 493918.773
+Z: 383.238
+Objetos: Sinalização Vertical X Topografia
+ID: cd3839131
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621150.026
+Y: 494645.505
+Z: 277.458
+Objetos: Sinalização Vertical X Topografia
+ID: cd3839255
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621512.944
+Y: 492945.076
+Z: 73.731
+Objetos: Sinalização Vertical X Topografia
+ID: cd3839448
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620714.276
+Y: 493618.212
+Z: 154.525
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3839644
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621493.247
+Y: 494607.388
+Z: 257.212
+Objetos: Sinalização Vertical X Topografia
+ID: cd3839872
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621536.415
+Y: 494547.368
+Z: 252.520
+Objetos: Sinalização Vertical X Topografia
+ID: cd3839885
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621388.905
+Y: 492971.376
+Z: 108.831
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3840388
+Entity1: 
+Entity2: 
+Layer1: B_CORRIDA
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621490.670
+Y: 494261.526
+Z: 229.712
+Objetos: Sinalização Vertical X Topografia
+ID: cd3840450
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619112.076
+Y: 493009.885
+Z: 444.194
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3840673
+Entity1: 
+Entity2: 
+Layer1: M_SECO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621364.702
+Y: 494681.090
+Z: 265.887
+Objetos: Sinalização Vertical X Topografia
+ID: cd3841042
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621375.475
+Y: 492978.130
+Z: 109.693
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3841189
+Entity1: 
+Entity2: 
+Layer1: B_CORRIDA
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619104.944
+Y: 493022.671
+Z: 443.984
+Objetos: Sinalização Vertical X Topografia
+ID: cd3841321
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620833.459
+Y: 493965.672
+Z: 175.802
+Objetos: Sinalização Vertical X Topografia
+ID: cd3841847
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621012.971
+Y: 494433.445
+Z: 281.858
+Objetos: Sinalização Vertical X Topografia
+ID: cd3842066
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619579.296
+Y: 494128.602
+Z: 371.317
+Objetos: Sinalização Vertical X Topografia
+ID: cd3843043
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 618987.909
+Y: 492968.857
+Z: 443.812
+Objetos: Sinalização Vertical X Topografia
+ID: cd3844281
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620683.843
+Y: 493639.516
+Z: 149.602
+Objetos: Sinalização Vertical X Topografia
+ID: cd3844429
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619287.551
+Y: 493316.791
+Z: 427.908
+Objetos: Sinalização Vertical X Topografia
+ID: cd3845227
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621947.524
+Y: 491617.909
+Z: 55.057
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3845768
+Entity1: 
+Entity2: 
+Layer1: P-IMPERMEABILIZANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621947.524
+Y: 491617.909
+Z: 55.057
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3845769
+Entity1: 
+Entity2: 
+Layer1: P-LIGANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619103.271
+Y: 493021.027
+Z: 443.963
+Objetos: Sinalização Vertical X Topografia
+ID: cd3847156
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620688.826
+Y: 493640.223
+Z: 149.634
+Objetos: Sinalização Vertical X Topografia
+ID: cd3847167
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620709.597
+Y: 493619.837
+Z: 153.926
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3847192
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621202.487
+Y: 494672.323
+Z: 275.225
+Objetos: Sinalização Vertical X Topografia
+ID: cd3847322
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621947.598
+Y: 491617.894
+Z: 55.183
+Objetos: Sinalização Vertical X Topografia
+ID: cd3848667
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619571.236
+Y: 494213.184
+Z: 372.112
+Objetos: Sinalização Vertical X Topografia
+ID: cd3849093
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621947.599
+Y: 491617.890
+Z: 55.293
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3849154
+Entity1: 
+Entity2: 
+Layer1: CAUQ
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620729.626
+Y: 493605.702
+Z: 156.360
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3849259
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 620635.077
+Y: 493770.147
+Z: 180.358
+Objetos: Sinalização Vertical X Topografia
+ID: cd3849402
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621546.705
+Y: 492257.310
+Z: 65.468
+Objetos: Sinalização Vertical X Topografia
+ID: cd3849878
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619495.663
+Y: 493965.685
+Z: 381.506
+Objetos: Sinalização Vertical X Topografia
+ID: cd3850401
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619470.751
+Y: 494030.864
+Z: 386.497
+Objetos: Sinalização Vertical X Topografia
+ID: cd3850793
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621503.401
+Y: 494596.397
+Z: 256.370
+Objetos: Sinalização Vertical X Topografia
+ID: cd3851174
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621587.421
+Y: 491962.875
+Z: 64.332
+Objetos: Sinalização Vertical X Topografia
+ID: cd3851409
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619927.596
+Y: 494353.854
+Z: 341.608
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3851482
+Entity1: 
+Entity2: 
+Layer1: M_SECO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619927.596
+Y: 494353.854
+Z: 341.608
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3851483
+Entity1: 
+Entity2: 
+Layer1: M_SECO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620726.478
+Y: 493609.588
+Z: 155.775
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3851600
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 620734.174
+Y: 493596.860
+Z: 157.287
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3851724
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621947.594
+Y: 491617.875
+Z: 55.252
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3851953
+Entity1: 
+Entity2: 
+Layer1: BGS
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619142.952
+Y: 492983.860
+Z: 446.778
+Objetos: Sinalização Vertical X Topografia
+ID: cd3852164
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620780.927
+Y: 493918.197
+Z: 170.686
+Objetos: Sinalização Vertical X Topografia
+ID: cd3852201
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621480.895
+Y: 494249.516
+Z: 228.567
+Objetos: Sinalização Vertical X Topografia
+ID: cd3852302
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619451.903
+Y: 493905.419
+Z: 386.367
+Objetos: Sinalização Vertical X Topografia
+ID: cd3852421
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621957.341
+Y: 491632.486
+Z: 55.694
+Objetos: Sinalização Vertical X Topografia
+ID: cd3852508
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621692.468
+Y: 491789.171
+Z: 66.604
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3852523
+Entity1: 
+Entity2: 
+Layer1: P-IMPERMEABILIZANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.468
+Y: 491789.171
+Z: 66.605
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3852549
+Entity1: 
+Entity2: 
+Layer1: B_CORRIDA
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620763.067
+Y: 493894.151
+Z: 168.333
+Objetos: Sinalização Vertical X Topografia
+ID: cd3853403
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620693.800
+Y: 493640.709
+Z: 149.664
+Objetos: Sinalização Vertical X Topografia
+ID: cd3853488
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620732.215
+Y: 493601.428
+Z: 156.725
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3853585
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619162.681
+Y: 493008.243
+Z: 446.635
+Objetos: Sinalização Vertical X Topografia
+ID: cd3853645
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620635.946
+Y: 493800.118
+Z: 181.978
+Objetos: Sinalização Vertical X Topografia
+ID: cd3853897
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619132.273
+Y: 493005.392
+Z: 446.486
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3853935
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621420.831
+Y: 494660.214
+Z: 262.000
+Objetos: Sinalização Vertical X Topografia
+ID: cd3854023
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621290.396
+Y: 494689.285
+Z: 270.122
+Objetos: Sinalização Vertical X Topografia
+ID: cd3854324
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620729.623
+Y: 493605.705
+Z: 156.206
+Objetos: Sinalização Vertical X Topografia
+ID: cd3854398
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620863.306
+Y: 493982.002
+Z: 177.672
+Objetos: Sinalização Vertical X Topografia
+ID: cd3854535
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620732.218
+Y: 493601.424
+Z: 156.684
+Objetos: Sinalização Vertical X Topografia
+ID: cd3854792
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620728.506
+Y: 493637.670
+Z: 149.233
+Objetos: Sinalização Vertical X Topografia
+ID: cd3854901
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619872.201
+Y: 494325.748
+Z: 347.332
+Objetos: Sinalização Vertical X Topografia
+ID: cd3854970
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: ARVORE_ISOLADA
+----------------------------------------
+X: 619126.768
+Y: 492999.620
+Z: 445.684
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855123
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620723.636
+Y: 493638.809
+Z: 149.433
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855396
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620637.740
+Y: 493815.010
+Z: 182.709
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855463
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621216.701
+Y: 494677.117
+Z: 274.431
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855471
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619448.744
+Y: 493890.872
+Z: 387.378
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855526
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620774.789
+Y: 493632.553
+Z: 147.016
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3855590
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621455.300
+Y: 494644.061
+Z: 260.039
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855596
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621556.449
+Y: 492153.109
+Z: 64.019
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3855692
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621104.864
+Y: 493229.292
+Z: 107.029
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3855734
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621947.303
+Y: 491615.601
+Z: 54.955
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855836
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620704.716
+Y: 493620.951
+Z: 153.332
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855866
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620800.398
+Y: 493504.209
+Z: 138.538
+Objetos: Sinalização Vertical X Topografia
+ID: cd3855888
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621471.714
+Y: 494626.121
+Z: 258.556
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856002
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619872.202
+Y: 494325.734
+Z: 347.335
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856016
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: ARVORE_ISOLADA
+----------------------------------------
+X: 619872.202
+Y: 494325.734
+Z: 347.335
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856017
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: ARVORE_ISOLADA
+----------------------------------------
+X: 619872.202
+Y: 494325.734
+Z: 347.335
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856018
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: ARVORE_ISOLADA
+----------------------------------------
+X: 621500.675
+Y: 494266.539
+Z: 235.335
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856117
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620718.718
+Y: 493639.719
+Z: 149.579
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856173
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620755.356
+Y: 493881.322
+Z: 166.918
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856430
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621518.388
+Y: 494253.660
+Z: 236.503
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856432
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619591.714
+Y: 494235.038
+Z: 370.317
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856437
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621493.154
+Y: 492967.608
+Z: 75.169
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856477
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621079.432
+Y: 493266.391
+Z: 110.665
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3856515
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619162.533
+Y: 493039.686
+Z: 445.927
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3856525
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620699.737
+Y: 493621.314
+Z: 152.852
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856550
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621069.822
+Y: 493277.908
+Z: 111.823
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3856614
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619282.675
+Y: 493307.793
+Z: 428.617
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856699
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620640.432
+Y: 493829.765
+Z: 183.441
+Objetos: Sinalização Vertical X Topografia
+ID: cd3856841
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621947.579
+Y: 491617.925
+Z: 54.854
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3856843
+Entity1: 
+Entity2: 
+Layer1: CFT
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621947.579
+Y: 491617.925
+Z: 54.854
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3856844
+Entity1: 
+Entity2: 
+Layer1: CFT
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619152.391
+Y: 493027.295
+Z: 446.165
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3856997
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620698.792
+Y: 493640.961
+Z: 149.695
+Objetos: Sinalização Vertical X Topografia
+ID: cd3857208
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 618926.655
+Y: 492966.116
+Z: 443.627
+Objetos: Sinalização Vertical X Topografia
+ID: cd3857414
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620713.763
+Y: 493640.398
+Z: 149.672
+Objetos: Sinalização Vertical X Topografia
+ID: cd3857456
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619120.323
+Y: 492994.602
+Z: 446.554
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3857460
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 618937.310
+Y: 492967.887
+Z: 443.215
+Objetos: Sinalização Vertical X Topografia
+ID: cd3857569
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620736.828
+Y: 493840.393
+Z: 163.754
+Objetos: Sinalização Vertical X Topografia
+ID: cd3857623
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621088.353
+Y: 493254.320
+Z: 109.327
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3857686
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 618928.697
+Y: 492966.065
+Z: 443.597
+Objetos: Sinalização Vertical X Topografia
+ID: cd3857700
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620669.340
+Y: 493636.032
+Z: 149.512
+Objetos: Sinalização Vertical X Topografia
+ID: cd3857734
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620735.436
+Y: 493591.999
+Z: 157.626
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3857834
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 621096.791
+Y: 493241.921
+Z: 108.114
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3857838
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619142.765
+Y: 493016.090
+Z: 446.355
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3858140
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620722.806
+Y: 493613.019
+Z: 155.401
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3858191
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619113.431
+Y: 493010.594
+Z: 444.299
+Objetos: Sinalização Vertical X Topografia
+ID: cd3858613
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620692.523
+Y: 493936.575
+Z: 188.339
+Objetos: Sinalização Vertical X Topografia
+ID: cd3858691
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620724.324
+Y: 493968.315
+Z: 190.063
+Objetos: Sinalização Vertical X Topografia
+ID: cd3858738
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620801.599
+Y: 493939.937
+Z: 172.388
+Objetos: Sinalização Vertical X Topografia
+ID: cd3858843
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621604.650
+Y: 491879.702
+Z: 69.031
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3858995
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620683.267
+Y: 493924.776
+Z: 187.765
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859004
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620807.936
+Y: 493486.879
+Z: 136.815
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859034
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620814.009
+Y: 493473.189
+Z: 135.834
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859194
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619171.262
+Y: 493052.926
+Z: 445.537
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3859198
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620735.436
+Y: 493592.000
+Z: 157.581
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859329
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621012.755
+Y: 493299.061
+Z: 114.768
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859351
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620674.744
+Y: 493912.439
+Z: 187.190
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859414
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621474.396
+Y: 492476.051
+Z: 66.979
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859431
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619307.054
+Y: 493307.835
+Z: 426.882
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859500
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620833.631
+Y: 493965.722
+Z: 175.761
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859517
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620703.789
+Y: 493640.981
+Z: 149.726
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859647
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621582.014
+Y: 491917.655
+Z: 68.254
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3859749
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619259.543
+Y: 493310.804
+Z: 430.355
+Objetos: Sinalização Vertical X Topografia
+ID: cd3859969
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621335.344
+Y: 494686.835
+Z: 267.532
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860070
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621512.325
+Y: 494584.212
+Z: 255.442
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860110
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621186.879
+Y: 494665.688
+Z: 275.902
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860126
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621112.517
+Y: 493216.379
+Z: 105.658
+Objetos: Sinalização Vertical X Drenagem
+ID: cd3860154
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: H-SARJETA_CONCRETO
+----------------------------------------
+X: 619266.484
+Y: 493324.004
+Z: 429.475
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860171
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620820.594
+Y: 493459.715
+Z: 134.859
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860173
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621499.588
+Y: 494273.150
+Z: 230.780
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860211
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620827.745
+Y: 493446.526
+Z: 133.862
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860311
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620986.555
+Y: 494464.489
+Z: 284.101
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860360
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621025.041
+Y: 493317.639
+Z: 116.051
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860363
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621137.102
+Y: 494603.095
+Z: 275.999
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860383
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620973.501
+Y: 494457.099
+Z: 284.455
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860413
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621096.851
+Y: 493241.971
+Z: 108.090
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860444
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619421.795
+Y: 493578.630
+Z: 411.765
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860459
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621186.849
+Y: 493082.198
+Z: 94.909
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860470
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621154.185
+Y: 493113.072
+Z: 98.125
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860481
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621535.956
+Y: 494354.947
+Z: 237.175
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860484
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620931.998
+Y: 494439.849
+Z: 285.758
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860488
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621088.411
+Y: 493254.372
+Z: 109.303
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860491
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620902.888
+Y: 494432.653
+Z: 287.028
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860492
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621542.473
+Y: 494399.417
+Z: 240.407
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860495
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621527.177
+Y: 494326.275
+Z: 235.023
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860498
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619410.796
+Y: 493535.022
+Z: 414.371
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860499
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621597.945
+Y: 492705.187
+Z: 67.598
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860500
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621553.203
+Y: 491930.027
+Z: 67.852
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860501
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621190.891
+Y: 494637.199
+Z: 273.460
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860505
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621521.501
+Y: 494312.390
+Z: 233.948
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860510
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621469.165
+Y: 492462.055
+Z: 67.169
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860513
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621584.341
+Y: 492631.710
+Z: 67.238
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860515
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621011.200
+Y: 494481.572
+Z: 283.393
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860516
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621233.185
+Y: 494652.405
+Z: 271.086
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860525
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621595.275
+Y: 492750.052
+Z: 67.814
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860533
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621535.236
+Y: 494473.791
+Z: 245.795
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860539
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620999.136
+Y: 494472.656
+Z: 283.748
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860540
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621005.906
+Y: 494445.129
+Z: 282.517
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860542
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620888.059
+Y: 494430.391
+Z: 287.786
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860546
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621069.824
+Y: 493277.907
+Z: 111.667
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860547
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620993.022
+Y: 494437.447
+Z: 282.976
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860548
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621421.350
+Y: 494625.902
+Z: 258.673
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860553
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621506.127
+Y: 494542.613
+Z: 250.979
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860569
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621079.377
+Y: 493266.335
+Z: 110.477
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860572
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621592.455
+Y: 492660.578
+Z: 67.382
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860577
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621198.910
+Y: 493073.280
+Z: 93.837
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860580
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621307.517
+Y: 494660.058
+Z: 266.368
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860581
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621597.072
+Y: 492735.160
+Z: 67.742
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860583
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621265.964
+Y: 493040.261
+Z: 88.271
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860586
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621520.268
+Y: 494516.170
+Z: 248.991
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860588
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620828.197
+Y: 494430.403
+Z: 291.212
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860601
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621294.768
+Y: 493031.884
+Z: 85.866
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860609
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620946.173
+Y: 494444.756
+Z: 285.245
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860612
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621539.026
+Y: 494369.630
+Z: 238.252
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860614
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621218.788
+Y: 494648.195
+Z: 271.928
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860616
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620659.940
+Y: 493886.363
+Z: 186.013
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860619
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621457.799
+Y: 494599.606
+Z: 255.788
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860622
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621104.865
+Y: 493229.291
+Z: 106.868
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860623
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621595.186
+Y: 492675.327
+Z: 67.454
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860626
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621175.347
+Y: 493091.827
+Z: 95.981
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860644
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621957.333
+Y: 491632.448
+Z: 55.804
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3860645
+Entity1: 
+Entity2: 
+Layer1: CONCRETO_PASSEIO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621957.333
+Y: 491632.447
+Z: 55.734
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3860646
+Entity1: 
+Entity2: 
+Layer1: LASTRO_PASSEIO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621526.111
+Y: 494502.355
+Z: 247.947
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860653
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621541.201
+Y: 494384.471
+Z: 239.329
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860656
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620960.024
+Y: 494450.513
+Z: 284.814
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860657
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621337.324
+Y: 494656.777
+Z: 264.444
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860662
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621597.018
+Y: 492690.215
+Z: 67.526
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860665
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621277.533
+Y: 494659.708
+Z: 268.291
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860667
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621204.673
+Y: 494643.120
+Z: 272.719
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860673
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621164.446
+Y: 493102.130
+Z: 97.053
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860680
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621773.905
+Y: 491736.265
+Z: 68.642
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860684
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620561.669
+Y: 494518.734
+Z: 306.591
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860688
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621292.520
+Y: 494660.338
+Z: 267.329
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860716
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621408.213
+Y: 494633.142
+Z: 259.635
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860717
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620873.121
+Y: 494429.032
+Z: 288.623
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860720
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621597.963
+Y: 492720.187
+Z: 67.670
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860730
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621532.001
+Y: 494340.478
+Z: 236.098
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860739
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621350.143
+Y: 494684.348
+Z: 266.569
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860747
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621468.813
+Y: 494589.423
+Z: 254.826
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860749
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621322.470
+Y: 494658.869
+Z: 265.406
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860751
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621112.580
+Y: 493216.426
+Z: 105.638
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860756
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621433.987
+Y: 494617.810
+Z: 257.714
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860762
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621177.492
+Y: 494630.454
+Z: 274.150
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860763
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620917.552
+Y: 494435.810
+Z: 286.352
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860765
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621184.396
+Y: 494097.722
+Z: 216.408
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860768
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620774.860
+Y: 493632.586
+Z: 146.999
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860775
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621262.612
+Y: 494658.172
+Z: 269.253
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860776
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621496.334
+Y: 492856.849
+Z: 99.756
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860786
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621542.837
+Y: 494414.413
+Z: 241.484
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860787
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620751.122
+Y: 493617.843
+Z: 147.301
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860789
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620558.705
+Y: 494545.534
+Z: 308.038
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860792
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619940.956
+Y: 494392.443
+Z: 347.238
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860793
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621501.284
+Y: 492845.314
+Z: 99.036
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860810
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621491.460
+Y: 492866.014
+Z: 100.447
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860824
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621435.830
+Y: 492938.617
+Z: 105.625
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860845
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621692.410
+Y: 491789.164
+Z: 66.772
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3860856
+Entity1: 
+Entity2: 
+Layer1: P-LIGANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.410
+Y: 491789.164
+Z: 66.772
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3860857
+Entity1: 
+Entity2: 
+Layer1: P-IMPERMEABILIZANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.473
+Y: 491789.115
+Z: 66.600
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3860858
+Entity1: 
+Entity2: 
+Layer1: P-IMPERMEABILIZANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.474
+Y: 491789.117
+Z: 66.770
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3860860
+Entity1: 
+Entity2: 
+Layer1: BGTC
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.411
+Y: 491789.165
+Z: 66.602
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3860861
+Entity1: 
+Entity2: 
+Layer1: M_SECO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621692.410
+Y: 491789.162
+Z: 66.942
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3860863
+Entity1: 
+Entity2: 
+Layer1: P-LIGANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621211.524
+Y: 493065.174
+Z: 92.793
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860889
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620833.310
+Y: 493965.537
+Z: 175.757
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860894
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620734.154
+Y: 493596.858
+Z: 157.118
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860901
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621059.488
+Y: 493288.766
+Z: 113.008
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860907
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619405.803
+Y: 493520.875
+Z: 415.302
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860938
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620556.343
+Y: 494544.079
+Z: 308.170
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860953
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621503.398
+Y: 492956.621
+Z: 74.455
+Objetos: Sinalização Vertical X Topografia
+ID: cd3860986
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621482.434
+Y: 494617.811
+Z: 257.781
+Objetos: Sinalização Vertical X Topografia
+ID: cd3861111
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621692.403
+Y: 491789.147
+Z: 66.942
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3861303
+Entity1: 
+Entity2: 
+Layer1: CAUQ
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620708.748
+Y: 493640.828
+Z: 149.725
+Objetos: Sinalização Vertical X Topografia
+ID: cd3861349
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621588.836
+Y: 492646.040
+Z: 67.314
+Objetos: Sinalização Vertical X Topografia
+ID: cd3861392
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619446.071
+Y: 493562.283
+Z: 409.542
+Objetos: Sinalização Vertical X Topografia
+ID: cd3861424
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620798.687
+Y: 494435.843
+Z: 292.942
+Objetos: Sinalização Vertical X Topografia
+ID: cd3861915
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621556.524
+Y: 492153.106
+Z: 64.006
+Objetos: Sinalização Vertical X Topografia
+ID: cd3861951
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619106.741
+Y: 492984.047
+Z: 446.546
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3862289
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621513.526
+Y: 494529.585
+Z: 250.005
+Objetos: Sinalização Vertical X Topografia
+ID: cd3862304
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621436.678
+Y: 494656.080
+Z: 260.466
+Objetos: Sinalização Vertical X Topografia
+ID: cd3862365
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621592.503
+Y: 492764.812
+Z: 67.914
+Objetos: Sinalização Vertical X Topografia
+ID: cd3862373
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621247.794
+Y: 494655.724
+Z: 270.194
+Objetos: Sinalização Vertical X Topografia
+ID: cd3862518
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620749.301
+Y: 493619.018
+Z: 147.413
+Objetos: Sinalização Vertical X Topografia
+ID: cd3862556
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621588.865
+Y: 491904.489
+Z: 68.577
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3862634
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621548.257
+Y: 491944.154
+Z: 67.406
+Objetos: Sinalização Vertical X Topografia
+ID: cd3862811
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620666.913
+Y: 493899.606
+Z: 186.601
+Objetos: Sinalização Vertical X Topografia
+ID: cd3863025
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619273.770
+Y: 493337.151
+Z: 428.292
+Objetos: Sinalização Vertical X Topografia
+ID: cd3863035
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621494.044
+Y: 492201.165
+Z: 66.023
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3863774
+Entity1: 
+Entity2: 
+Layer1: LASTRO_PASSEIO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621494.044
+Y: 492201.165
+Z: 66.073
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3863818
+Entity1: 
+Entity2: 
+Layer1: CONCRETO_PASSEIO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621575.918
+Y: 491931.459
+Z: 67.862
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3863962
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621596.542
+Y: 491891.732
+Z: 68.608
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3864111
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 620712.242
+Y: 493577.263
+Z: 167.399
+Objetos: Sinalização Vertical X Topografia
+ID: cd3864298
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621546.739
+Y: 492257.299
+Z: 65.427
+Objetos: Contenções X Sinalização Vertical
+ID: cd3864473
+Entity1: 
+Entity2: 
+Layer1: Level 0
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621401.890
+Y: 492963.956
+Z: 107.666
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3864584
+Entity1: 
+Entity2: 
+Layer1: COLCHÃO DRENANTE
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619619.173
+Y: 494270.932
+Z: 367.370
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3864671
+Entity1: 
+Entity2: 
+Layer1: B_CORRIDA
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621546.739
+Y: 492257.299
+Z: 65.427
+Objetos: Contenções X Sinalização Vertical
+ID: cd3864818
+Entity1: 
+Entity2: 
+Layer1: Level 0
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621361.745
+Y: 492984.111
+Z: 110.358
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3865263
+Entity1: 
+Entity2: 
+Layer1: B_CORRIDA
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621401.879
+Y: 492963.939
+Z: 107.780
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3865383
+Entity1: 
+Entity2: 
+Layer1: B_CORRIDA
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621401.881
+Y: 492963.938
+Z: 107.980
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3865764
+Entity1: 
+Entity2: 
+Layer1: M_SECO
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 621435.775
+Y: 492938.610
+Z: 105.352
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3865770
+Entity1: 
+Entity2: 
+Layer1: B_CORRIDA
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619872.225
+Y: 494325.636
+Z: 347.385
+Objetos: Sinalização Vertical X Topografia
+ID: cd3865931
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: ARVORE_ISOLADA
+----------------------------------------
+X: 621012.571
+Y: 493299.136
+Z: 114.744
+Objetos: Sinalização Vertical X Topografia
+ID: cd3866319
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619914.273
+Y: 494346.894
+Z: 343.562
+Objetos: Dispositivos de Segurança X Sinalização Vertical
+ID: cd3866369
+Entity1: 
+Entity2: 
+Layer1: sinC_BAR.CONCRETO_BIM
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
+X: 619470.827
+Y: 494030.839
+Z: 386.100
+Objetos: Sinalização Vertical X Topografia
+ID: cd3866962
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619470.837
+Y: 494030.836
+Z: 386.048
+Objetos: Sinalização Vertical X Topografia
+ID: cd3867094
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 620780.843
+Y: 493918.381
+Z: 171.602
+Objetos: Sinalização Vertical X Topografia
+ID: cd3867463
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619109.455
+Y: 492953.480
+Z: 446.404
+Objetos: Sinalização Vertical X Topografia
+ID: cd3867592
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 619470.841
+Y: 494030.835
+Z: 386.029
+Objetos: Sinalização Vertical X Topografia
+ID: cd3873850
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 621012.668
+Y: 493299.050
+Z: 114.731
+Objetos: Sinalização Vertical X Topografia
+ID: cd3878280
+Entity1: 
+Entity2: 
+Layer1: sinC_VERTICAL_BIM
+Layer2: T-HM-TERRENO
+----------------------------------------
+X: 618941.294
+Y: 492956.951
+Z: 443.597
+Objetos: Pavimentação X Sinalização Vertical
+ID: cd3879709
+Entity1: 
+Entity2: 
+Layer1: CFT
+Layer2: sinC_VERTICAL_BIM
+----------------------------------------
