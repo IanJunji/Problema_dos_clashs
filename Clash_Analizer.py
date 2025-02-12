@@ -495,6 +495,9 @@ def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_di
             aba.merge_cells(f'A{row_num}:B{row_num}')
             aba[f'A{row_num}'] = 'Layers'        # Cabeçalho para Layers
             aba[f'C{row_num}'] = 'Contagem'        # Cabeçalho para a contagem de conflitos
+            aba[f'D{row_num}'] = 'Status'
+            aba[f'E{row_num}'] = 'Justificativa'
+            aba[f'F{row_num}'] = 'Imagem'
             row_num += 1
 
         # Itera sobre cada detalhe de conflito para esse par de disciplinas
@@ -559,30 +562,38 @@ def excel_conflitos_por_disciplina(conflitos_por_disciplina, dicionario_layer_di
                     fill2 = PatternFill(start_color="DCE6F1", end_color="DCE6F1", fill_type = "solid")  # Cor DCE6F1
                     # Aplica o preenchimento às células
                     aba.cell(row=linha, column=coluna).fill = fill1
-                    aba.cell(row=linha, column=coluna-1).fill = fill2
+                    aba.cell(row=linha, column=coluna-2).fill = fill2
                 elif cel.value == 'Contagem':
                     linha = cel.row
                     coluna = cel.column
                     fill3 = PatternFill(start_color="CCC0DA", end_color="CCC0DA", fill_type = "solid")  # Cor CCC0DA
                     fill4 = PatternFill(start_color="FDE9D9", end_color="FDE9D9", fill_type = "solid")  # Cor FDE9D9
                     aba.cell(row=linha, column=coluna).fill = fill3
-                    aba.cell(row=linha, column=coluna-1).fill = fill4
+                    aba.cell(row=linha, column=coluna-2).fill = fill4
         
         print('Cores concluidas')
 
+        # Itera sobre a primeira coluna ('A') da planilha, começando da segunda linha
+        thin_border = Border(left=Side(style='thin'),
+        right=Side(style='thin'),
+        top=Side(style='thin'),
+        bottom=Side(style='thin'))
         for col in aba.iter_cols(min_row=2, min_col=1, max_col=1):
             for cel in col:
+                # Verifica se a célula contém o texto 'Disciplinas'
                 if cel.value == 'Disciplinas':
-                    linha = cel.row
-                    coluna = cel.column
-                    for col in range(1, 4):
-                        if aba.cell(row=linha, column=coluna).value != '':
-                            thin_border = Border(left=Side(style='thin'),
-                                         right=Side(style='thin'),
-                                         top=Side(style='thin'),
-                                         bottom=Side(style='thin'))
-                            cel.border = thin_border
+                        linha = cel.row # Obtém o número da linha onde 'Disciplinas' foi encontrado
+                        coluna = cel.column # Obtém o número da coluna onde 'Disciplinas' foi encontrado
+                        # Encontra a primeira linha vazia abaixo de 'Disciplinas'
+                        while aba.cell(row=linha, column=coluna).value:
                             linha += 1
+                        linha_final = linha # Define a linha final como a primeira linha vazia encontrada
+                        # Itera sobre as colunas de 1 a 3 (A, B, C)
+                        for col in range(1, 7):
+                                # Itera sobre as linhas, começando da linha onde 'Disciplinas' foi encontrado até a linha final vazia
+                                for linha_borda in range(cel.row, linha_final):
+                                    aba.cell(row=linha_borda, column=col).border = thin_border
+
         
         print('Bordas Concluidas')
 
